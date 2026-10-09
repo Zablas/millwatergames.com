@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# millwatergames.com
 
-## Getting Started
+The website of Millwater Games: the studio's home page, and each game's page and privacy policy.
+A Next.js app exported as static HTML and served by Cloudflare Workers (static assets only, the
+free plan). Every push to `main` deploys.
 
-First, run the development server:
+| Page | URL | Source |
+|---|---|---|
+| Studio home | https://millwatergames.com/ | `app/page.tsx` |
+| Thalassa | https://millwatergames.com/thalassa | `app/thalassa/page.tsx` |
+| Thalassa's privacy policy | https://millwatergames.com/thalassa/privacy | `app/thalassa/privacy/page.tsx` |
+| Star Tap | https://millwatergames.com/star-tap | `app/star-tap/page.tsx` |
+| Star Tap's privacy policy | https://millwatergames.com/star-tap/privacy | `app/star-tap/privacy/page.tsx` |
+| AdMob's app-ads.txt | https://millwatergames.com/app-ads.txt | `public/app-ads.txt` |
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The pages were first published on `zablas.github.io` (repo `Zablas/Zablas.github.io`).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Commands
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `npm run dev`: Next.js's development server.
+- `npm run build`: the static site into `out/`.
+- `npm run preview`: build, then serve `out/` locally with Cloudflare's own runtime
+  (`wrangler dev`, http://127.0.0.1:8787), with the same routing as the live site:
+  `/thalassa/privacy` serves `thalassa/privacy.html`, and `.html` addresses and trailing slashes
+  redirect to the clean address.
+- `npm run deploy`: build and deploy from this PC (`wrangler login` first). Normally unnecessary:
+  Cloudflare builds and deploys every push to `main` (Workers Builds: build command
+  `npm run build`, deploy command `npx wrangler deploy`).
 
-## Learn More
+## Where the addresses are registered
 
-To learn more about Next.js, take a look at the following resources:
+Changing an address means changing it in every place below as well.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Address | Registered in |
+|---|---|
+| `millwatergames.com` | Google Search Console (Domain property, verified by DNS TXT in Cloudflare); Google Cloud → Google Auth Platform → Branding → Authorized domains (Thalassa's project, and Star Tap's if it has branding) |
+| `/thalassa` | Google Cloud → Branding → Application home page (Thalassa); Play Console → Thalassa → Store settings → Website (AdMob reads its host for app-ads.txt) |
+| `/thalassa/privacy` | Google Cloud → Branding → Application privacy policy link; Play Console → Thalassa → App content → Privacy policy; AdMob → Privacy & messaging → Thalassa's privacy policy URL |
+| `/thalassa/privacy#delete` | Play Console → Thalassa → App content → Data safety → Delete account URL |
+| `/star-tap` | Play Console → Star Tap → Store settings → Website |
+| `/star-tap/privacy` | Play Console → Star Tap → App content → Privacy policy; AdMob → Privacy & messaging → Star Tap's privacy policy URL |
+| `/app-ads.txt` | found by AdMob at the root of the Website host of both apps; one line for the one AdMob account |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Google requires Thalassa's home page to link to the same privacy policy URL as the consent screen,
+so keep the link on `/thalassa` exactly `/thalassa/privacy`.
 
-## Deploy on Vercel
+## Updating a policy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Whenever what a game stores, sends or asks for changes, update its privacy page and its
+"Last updated" date in the same change. A push publishes it.

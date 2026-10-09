@@ -1,0 +1,13 @@
+// Cloudflare Workers, static assets only: the site is out/ from `next build`.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "millwatergames",
+  "compatibility_date": "2026-10-09",
+  "assets": {
+    "directory": "./out",
+    // /thalassa/privacy serves thalassa/privacy.html; /thalassa/privacy.html redirects to it.
+    "html_handling": "auto-trailing-slash",
+    // Anything else gets out/404.html with a 404 status.
+    "not_found_handling": "404-page"
+  }
+}
