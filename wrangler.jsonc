@@ -1,7 +1,7 @@
 // Cloudflare Workers, static assets only: the site is out/ from `next build`.
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "millwatergames",
+  "name": "millwatergames-com",
   "compatibility_date": "2026-10-09",
   "assets": {
     "directory": "./out",
