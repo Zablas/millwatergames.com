@@ -172,11 +172,11 @@ export default function ThalassaPrivacy() {
 
       <h2>Updates</h2>
       <p>
-        On Android the game asks Google Play whether a newer version of Thalassa is available: once a
-        day when you open it, and each time you open <strong>Sail together</strong>, since everyone
-        playing together needs the newest version. Google Play answers with its own update screen; the
-        game sends nothing of its own for this. It keeps on the device only when Google Play last said
-        it was up to date.
+        On Android the game asks Google Play whether a newer version of Thalassa is available: each
+        time you open it (and again if you come back to its title screen an hour or more later), and
+        each time you open <strong>Sail together</strong>, since everyone playing together needs the
+        newest version. Google Play answers with its own update screen; the game sends nothing of its
+        own for this and keeps nothing about it.
       </p>
 
       <h2>Analytics</h2>
