@@ -13,7 +13,7 @@ export default function ThalassaPrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Thalassa</h1>
-      <p className="meta">Last updated: 8 October 2026</p>
+      <p className="meta">Last updated: 10 October 2026</p>
 
       <p className="lead">
         Thalassa is a mobile strategy game published by Millwater Games. This policy explains
@@ -168,6 +168,15 @@ export default function ThalassaPrivacy() {
         owned on your Google account (it asks Google Play at every launch, so a purchase made on another
         device, a restore after reinstalling, or a refund all come through) and keeps that answer on
         the device.
+      </p>
+
+      <h2>Updates</h2>
+      <p>
+        On Android the game asks Google Play whether a newer version of Thalassa is available: once a
+        day when you open it, and each time you open <strong>Sail together</strong>, since everyone
+        playing together needs the newest version. Google Play answers with its own update screen; the
+        game sends nothing of its own for this. It keeps on the device only when Google Play last said
+        it was up to date.
       </p>
 
       <h2>Analytics</h2>
