@@ -13,7 +13,7 @@ export default function ThalassaPrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Thalassa</h1>
-      <p className="meta">Last updated: 10 October 2026</p>
+      <p className="meta">Last updated: 16 October 2026</p>
 
       <p className="lead">
         Thalassa is a mobile strategy game published by Millwater Games. This policy explains
@@ -22,7 +22,9 @@ export default function ThalassaPrivacy() {
 
       <h2>The short version</h2>
       <p>
-        The game has no servers of its own and no analytics. It shows ads, served by Google AdMob, until
+        The game has no servers of its own. To learn how it runs on different devices, it sends Google
+        measurements of how long it takes to load and how smoothly it plays, with no account or
+        advertising identifier. It shows ads, served by Google AdMob, until
         you buy <strong>Remove ads</strong> on Google Play. Where the law asks for it (the European
         Economic Area, the United Kingdom and Switzerland), Google asks your consent before ads are
         personalised.
@@ -179,15 +181,28 @@ export default function ThalassaPrivacy() {
         own for this and keeps nothing about it.
       </p>
 
-      <h2>Analytics</h2>
+      <h2>Performance measurements</h2>
       <p>
-        There is none: no analytics, attribution or crash-reporting software.
+        On Android the game uses Google's <strong>Android Performance Tuner</strong> to learn how it runs on
+        different devices, so that we can make it start and play better where it is slow. It measures how
+        long the game takes to start and to load a voyage (and whether a load was left before it
+        finished) and how long its frames take to draw, and sends these measurements to Google together
+        with the game's version and graphics setting, what was on screen (the title, a voyage, The First
+        Voyage or a game played together, and the size of the world), and details of the device that the
+        tuner gathers with them, such as its model, its Android version and how much memory it has.
+      </p>
+      <p>
+        The measurements are not linked to your Google account, your advertising ID or your captain's
+        name, and we see them only as statistics per device model in Google Play Console. Google's
+        handling of them is governed by the{" "}
+        <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. The game has no other
+        analytics, attribution or crash-reporting software.
       </p>
 
       <h2>Permissions</h2>
       <p>
-        Thalassa requests internet and network-state access (to play together, for Google Play Games
-        and for ads), vibration for haptic feedback (which you can turn off in Settings), and Google
+        Thalassa requests internet and network-state access (to play together, for Google Play Games,
+        for ads and to send its performance measurements), vibration for haptic feedback (which you can turn off in Settings), and Google
         Play's billing permission for Remove ads. Google's Mobile Ads SDK adds the advertising ID
         permission and Android's ad services permissions. The game does not request access to your
         location, camera, microphone, contacts, photos or files.
@@ -216,6 +231,7 @@ export default function ThalassaPrivacy() {
           <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>.</li>
         <li><strong>Google Play Games:</strong> delete your achievements and saved games for Thalassa, or your whole Play Games profile, in the Google Play Games settings on your device.</li>
         <li><strong>Advertising:</strong> reset or delete your advertising ID in Android's settings.</li>
+        <li><strong>Performance measurements:</strong> Google keeps them as statistics per device model; they are not linked to you, so there is nothing tied to you to delete. Measurements not yet sent are removed when you uninstall the game or clear its storage.</li>
         <li><strong>Other players' devices:</strong> a saved game you played together stays on the devices of the others who played it, with your captain's name and Epic account ID in it, as part of their own game.</li>
       </ul>
 
@@ -223,8 +239,8 @@ export default function ThalassaPrivacy() {
       <p>
         If you are in the European Economic Area or the United Kingdom, the GDPR gives you rights over
         your personal data, including access, correction, erasure, restriction, portability and
-        objection. To use them, contact us. For what Google (sign-in, Play Games, AdMob, Google Play)
-        or Epic hold, you can also contact them directly. You have the right to complain to your national data protection authority.
+        objection. To use them, contact us. For what Google (sign-in, Play Games, AdMob, Google Play,
+        Performance Tuner) or Epic hold, you can also contact them directly. You have the right to complain to your national data protection authority.
       </p>
 
       <h2>Changes to this policy</h2>

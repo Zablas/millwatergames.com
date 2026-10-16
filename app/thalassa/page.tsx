@@ -49,7 +49,8 @@ export default function ThalassaHome() {
 
       <h2>Privacy</h2>
       <p>
-        The game has no analytics. It shows ads (Google AdMob) until you buy Remove ads, and with Google
+        The game sends Google measurements of how fast it loads and runs, with no account or advertising
+        identifier. It shows ads (Google AdMob) until you buy Remove ads, and with Google
         Play Games your achievements and saved games follow your Google account. Read the{" "}
         <a href="/thalassa/privacy">privacy policy</a> to see what is shared, and when.
       </p>
