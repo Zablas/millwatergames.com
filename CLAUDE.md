@@ -10,6 +10,9 @@ push. The README lists the pages, the commands and every console that registers 
   edit their words exactly, and change a policy's "Last updated" date whenever its content changes.
   The games' own repos (`Documents/MobileGameDev2` for Thalassa, `Documents/MobileGameDev` for Star
   Tap) say when a change in the game needs one.
+- Thalassa's policy opens with four sections, how information is captured, used, shared and kept:
+  Epic's brand review (Developer Portal → Brand settings) refused it on 2026-10-25 for not explaining
+  those four. Keep them, and keep them in step with the service-by-service sections below them.
 - Addresses never change lightly: each is registered in Play Console, AdMob or Google Cloud (README).
   `app-ads.txt` must stay byte for byte at the root; changing it cuts both games' ads.
 - Links between pages are plain `<a>` with absolute paths (`/thalassa/privacy`), never `.html`.

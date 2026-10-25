@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 // Whenever what the game stores, sends or asks for changes, update this page and its date.
 export const metadata: Metadata = {
   title: "Thalassa — Privacy Policy",
-  description: "What information Thalassa handles, who else receives it, and what you can do about it.",
+  description: "How Thalassa captures, uses, shares and keeps information, and what you can do about it.",
   alternates: { canonical: "/thalassa/privacy" },
 };
 
@@ -13,11 +13,12 @@ export default function ThalassaPrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Thalassa</h1>
-      <p className="meta">Last updated: 16 October 2026</p>
+      <p className="meta">Last updated: 25 October 2026</p>
 
       <p className="lead">
         Thalassa is a mobile strategy game published by Millwater Games. This policy explains
-        what information the game handles, who else receives it, and what you can do about it.
+        what information the game captures, how it is used, who it is shared with, how long it is
+        kept, and what you can do about it.
       </p>
 
       <h2>The short version</h2>
@@ -38,6 +39,172 @@ export default function ThalassaPrivacy() {
         Google account, and the game uses Epic Online Services, run by Epic Games, to find the other
         players and connect to them. Google, Epic and the players in your game then receive the
         information described below. We never sell it.
+      </p>
+
+      <h2>How information is captured</h2>
+      <p>
+        Millwater Games has no servers, and the game sends us nothing. Information is captured in these
+        ways:
+      </p>
+      <ul>
+        <li><strong>What you type or choose:</strong> your captain's name; in a harbour, the people you
+          play and whether you are ready, and, if you host, the world, the rivals, the round timer and
+          whether the harbour is open to all; and anything you write to us by email.</li>
+        <li><strong>What the game records as you play:</strong> your saved games, your settings, your
+          progress through The First Voyage, the tips you have seen, the achievements you have earned and,
+          when you play together, your moves.</li>
+        <li><strong>What Google gives the game when you sign in:</strong> with <em>Sign in with Google</em>,
+          a sign-in token that identifies your Google account and includes your name, email address and a
+          link to your profile picture; with Google Play Games, whether you are signed in, and this game's
+          achievements and saved games.</li>
+        <li><strong>What is gathered automatically from your device:</strong>
+          <ul>
+            <li>by Google's Mobile Ads SDK (AdMob), until you buy Remove ads: your advertising ID, your IP
+              address, information about your device and the app, and how you interact with the ads;</li>
+            <li>by Google's Android Performance Tuner: how long the game takes to start, to load a voyage
+              and to draw its frames, with your device's model, Android version and memory;</li>
+            <li>by Epic Online Services, while you play together: your IP address, to connect you, and,
+              only when the game signs in with your device's anonymous ID instead of Google, your
+              device's model name;</li>
+            <li>by Google Play: whether Remove ads is owned on your Google account, and whether a newer
+              version of the game is available.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h2>How information is used</h2>
+      <ul>
+        <li><strong>To play:</strong> your saved games, settings and progress let you go on where you left
+          off; your captain's name, your harbour choices and your moves let you play with other people;
+          your Thalassa account ID at Epic recognises you, so you keep your seat when you come back to a
+          voyage.</li>
+        <li><strong>To sign you in:</strong> the Google sign-in token is passed to Epic Online Services,
+          which checks it and signs you in to your Thalassa account; your first name is suggested as your
+          captain's name, which you can change at any time.</li>
+        <li><strong>To keep your progress across devices:</strong> Google Play Games keeps your
+          achievements and saved games in your Google account.</li>
+        <li><strong>To show ads:</strong> AdMob uses its information to serve, measure and protect ads.
+          Where the law asks for it, ads are personalised only with your consent.</li>
+        <li><strong>To honour Remove ads:</strong> the game hides the ads once Google Play says you own
+          it.</li>
+        <li><strong>To keep the game up to date:</strong> everyone playing together needs the newest
+          version.</li>
+        <li><strong>To make the game run better:</strong> we see the performance measurements only as
+          statistics per device model in Google Play Console.</li>
+        <li><strong>To answer you</strong> when you email us.</li>
+      </ul>
+      <p>
+        We never sell information, and information from Google sign-in is never used for advertising.
+      </p>
+
+      <h2>How information is shared</h2>
+      <table>
+        <thead>
+          <tr><th>Who receives it</th><th>What</th><th>Why</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Epic Games</strong> (Epic Online Services, working for the game)</td>
+            <td>The Google sign-in token, your Thalassa account ID and captain's name, your harbour's
+              details, your moves and the game sent between players, and your IP address.</td>
+            <td>To sign you in, to gather the captains of a voyage and to connect your devices, directly
+              or through Epic's relay servers.</td>
+          </tr>
+          <tr>
+            <td><strong>Google</strong></td>
+            <td>What each of its services in the game needs: your sign-in (Sign in with Google), your
+              achievements and saved games (Play Games), the advertising information above (AdMob), the
+              purchase of Remove ads and the update check (Google Play), and the performance measurements
+              (Android Performance Tuner).</td>
+            <td>To provide those services.</td>
+          </tr>
+          <tr>
+            <td><strong>The other players in your voyage</strong></td>
+            <td>Your captain's name, your people, whether you are ready, everything that happens in the
+              game, your moves included, and, when your devices connect directly, your IP address. If you
+              host a voyage open to all, players of the same version also see your captain's name and
+              your harbour in the list of open voyages.</td>
+            <td>To play together.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        No one else receives it. Epic's and Google's handling of it is governed by their own privacy
+        policies, linked in the sections below.
+      </p>
+
+      <h2>How long information is kept</h2>
+      <table>
+        <thead>
+          <tr><th>Information</th><th>Where</th><th>How long</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Saved games, settings, progress, achievements, whether Remove ads is owned, your choices
+              about ads</td>
+            <td>Your device</td>
+            <td>Until you delete them, clear the game's storage or uninstall it. Of the games played
+              together, the five most recent are kept; older ones are deleted automatically.</td>
+          </tr>
+          <tr>
+            <td>The Google sign-in token</td>
+            <td>Not kept</td>
+            <td>The game holds it only while it signs you in, and never stores it.</td>
+          </tr>
+          <tr>
+            <td>Your Thalassa account at Epic: its account ID, its link to your Google account (or your
+              device's anonymous ID) and your captain's name</td>
+            <td>Epic</td>
+            <td>Until you use <em>Forget this account</em> or ask us to delete it.</td>
+          </tr>
+          <tr>
+            <td>A harbour's details</td>
+            <td>Epic</td>
+            <td>While the harbour is open; Epic removes them when it closes.</td>
+          </tr>
+          <tr>
+            <td>Your moves and the game sent between players</td>
+            <td>Passed on as you play</td>
+            <td>Not kept by us; the voyage is kept only in each player's saved game.</td>
+          </tr>
+          <tr>
+            <td>Achievements and saved games in Google Play Games</td>
+            <td>Your Google account</td>
+            <td>Until you delete them in Play Games. Only the newest copy of each save is kept.</td>
+          </tr>
+          <tr>
+            <td>Advertising information</td>
+            <td>Google</td>
+            <td>As Google's <a href="https://policies.google.com/technologies/retention">data retention policy</a> says. We receive none of it.</td>
+          </tr>
+          <tr>
+            <td>Your purchase of Remove ads</td>
+            <td>Google Play</td>
+            <td>In your Google Play purchase history, as Google keeps it. The game keeps only the answer, on
+              your device.</td>
+          </tr>
+          <tr>
+            <td>Whether a newer version is available</td>
+            <td>Not kept</td>
+            <td>The game asks Google Play each time and keeps nothing about it.</td>
+          </tr>
+          <tr>
+            <td>Performance measurements</td>
+            <td>Your device, then Google</td>
+            <td>On your device until they are sent (about every ten minutes, and when you leave the game),
+              then as statistics per device model, as Google's data retention policy says.</td>
+          </tr>
+          <tr>
+            <td>Emails you send us</td>
+            <td>Our mailbox</td>
+            <td>As long as we need them to answer you; a deletion request is kept as the record that it
+              was carried out.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        How to delete what can be deleted is under <a href="#delete">Keeping and deleting your data</a>.
+        The sections that follow give the details, service by service.
       </p>
 
       <h2>What the game stores on your device</h2>
@@ -74,7 +241,7 @@ export default function ThalassaPrivacy() {
       </p>
       <p>
         Where Google sign-in is not available, the game signs in with an anonymous ID that Epic creates
-        for your device instead.
+        for your device instead; Epic receives your device's model name when it creates that ID.
       </p>
 
       <h2>Epic Online Services</h2>
