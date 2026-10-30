@@ -30,6 +30,15 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="card game">
+        <img src="/climb-bros/logo-256.png" alt="Climb Bros' icon: a green goat peeking over the top of a brick tower" />
+        <div>
+          <h3><a href="/climb-bros">Climb Bros</a></h3>
+          <p>A cartoon climbing game for one to four friends: a new tower every run.</p>
+          <p className="muted">In development for Android phones · <a href="/climb-bros/privacy">Privacy policy</a></p>
+        </div>
+      </div>
+
       <h2>Contact</h2>
       <p>
         Bug reports, questions and complaints about any of our games:{" "}

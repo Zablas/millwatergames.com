@@ -9,7 +9,7 @@ push. The README lists the pages, the commands and every console that registers 
 - The privacy policies are legal text the games' stores and Google's consent screen point at. Port or
   edit their words exactly, and change a policy's "Last updated" date whenever its content changes.
   The games' own repos (`Documents/MobileGameDev2` for Thalassa, `Documents/MobileGameDev` for Star
-  Tap) say when a change in the game needs one.
+  Tap, `Documents/MobileGameDev3` for Climb Bros) say when a change in the game needs one.
 - Thalassa's policy opens with four sections, how information is captured, used, shared and kept:
   Epic's brand review (Developer Portal → Brand settings) refused it on 2026-10-25 for not explaining
   those four. Keep them, and keep them in step with the service-by-service sections below them.

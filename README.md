@@ -11,6 +11,8 @@ free plan). Every push to `main` deploys.
 | Thalassa's privacy policy | https://millwatergames.com/thalassa/privacy | `app/thalassa/privacy/page.tsx` |
 | Star Tap | https://millwatergames.com/star-tap | `app/star-tap/page.tsx` |
 | Star Tap's privacy policy | https://millwatergames.com/star-tap/privacy | `app/star-tap/privacy/page.tsx` |
+| Climb Bros | https://millwatergames.com/climb-bros | `app/climb-bros/page.tsx` |
+| Climb Bros' privacy policy | https://millwatergames.com/climb-bros/privacy | `app/climb-bros/privacy/page.tsx` |
 | AdMob's app-ads.txt | https://millwatergames.com/app-ads.txt | `public/app-ads.txt` |
 
 The pages were first published on `zablas.github.io` (repo `Zablas/Zablas.github.io`).
@@ -33,16 +35,20 @@ Changing an address means changing it in every place below as well.
 
 | Address | Registered in |
 |---|---|
-| `millwatergames.com` | Google Search Console (Domain property, verified by DNS TXT in Cloudflare); Google Cloud → Google Auth Platform → Branding → Authorized domains (Thalassa's project, and Star Tap's if it has branding) |
+| `millwatergames.com` | Google Search Console (Domain property, verified by DNS TXT in Cloudflare); Google Cloud → Google Auth Platform → Branding → Authorized domains (Thalassa's project, Climb Bros' project, and Star Tap's if it has branding) |
 | `/thalassa` | Google Cloud → Branding → Application home page (Thalassa); Play Console → Thalassa → Store settings → Website (AdMob reads its host for app-ads.txt) |
 | `/thalassa/privacy` | Google Cloud → Branding → Application privacy policy link; Play Console → Thalassa → App content → Privacy policy; AdMob → Privacy & messaging → Thalassa's privacy policy URL; Epic Developer Portal → Thalassa → Brand settings |
 | `/thalassa/privacy#delete` | Play Console → Thalassa → App content → Data safety → Delete account URL |
 | `/star-tap` | Play Console → Star Tap → Store settings → Website |
 | `/star-tap/privacy` | Play Console → Star Tap → App content → Privacy policy; AdMob → Privacy & messaging → Star Tap's privacy policy URL |
+| `/climb-bros` | Google Cloud → Branding → Application home page (Climb Bros); Play Console → Climb Bros → Store settings → Website, once it is there |
+| `/climb-bros/privacy` | Google Cloud → Branding → Application privacy policy link (Climb Bros); Play Console → Climb Bros → App content → Privacy policy, once it is there |
+| `/climb-bros/privacy#delete` | Play Console → Climb Bros → App content → Data safety → Delete account URL, once it is there |
 | `/app-ads.txt` | found by AdMob at the root of the Website host of both apps; one line for the one AdMob account |
 
-Google requires Thalassa's home page to link to the same privacy policy URL as the consent screen,
-so keep the link on `/thalassa` exactly `/thalassa/privacy`.
+Google requires a game's home page to link to the same privacy policy URL as its consent screen,
+so keep the link on `/thalassa` exactly `/thalassa/privacy`, and on `/climb-bros` exactly
+`/climb-bros/privacy`.
 
 ## Updating a policy
 
