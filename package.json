@@ -9,7 +9,7 @@
     "deploy": "next build && wrangler deploy"
   },
   "dependencies": {
-    "next": "16.4.0",
+    "next": "16.4.3",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
@@ -18,7 +18,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "typescript": "^5",
-    "wrangler": "4.149.0"
+    "wrangler": "4.156.0"
   },
   "engines": {
     "node": ">=22"
