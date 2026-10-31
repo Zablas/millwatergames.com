@@ -41,12 +41,13 @@ export default function ClimbBrosPrivacy() {
         ways:
       </p>
       <ul>
-        <li><strong>What you type or choose:</strong> your player name; the pings and quick-chat phrases
+        <li><strong>What you type or choose:</strong> the player name you type to play with others; the pings and quick-chat phrases
           you send; when you host, the tower you climb (today's tower or a new one, and its Ascension)
           and the code that lets friends join; and anything you write to us by email.</li>
         <li><strong>What the game records as you play:</strong> your saved run, your settings, the tips
-          you have seen, your best climb of today's tower, the Ascensions you have unlocked, and a random
-          number that this installation of the game keeps.</li>
+          you have seen, your best climb of today's tower, the Ascensions you have unlocked, the code of
+          the last online game you were in and when you were last in it, and a random number that this
+          installation of the game keeps.</li>
         <li><strong>What Google gives the game when you sign in:</strong> with <em>Sign in with Google</em>,
           a sign-in token that identifies your Google account and includes your name, email address and a
           link to your profile picture.</li>
@@ -60,10 +61,11 @@ export default function ClimbBrosPrivacy() {
           player name and everything you do in the game let you play with other people; the number this
           installation keeps (online, your Climb Bros account ID at Epic) lets the others' games
           recognise you, so that you get your place and your things back if your game closes during a
-          run.</li>
+          run; and the code of the last online game you were in lets you get back into it, for an hour
+          after you were last in it.</li>
         <li><strong>To sign you in:</strong> the Google sign-in token is passed to Epic Online Services,
-          which checks it and signs you in to your Climb Bros account; your first name is suggested as
-          your player name, which you can change at any time.</li>
+          which checks it and signs you in to your Climb Bros account. The name in it is not used: your
+          player name is the one you type.</li>
         <li><strong>To answer you</strong> when you email us.</li>
       </ul>
       <p>
@@ -117,13 +119,19 @@ export default function ClimbBrosPrivacy() {
               time; it is forgotten when the run is won, lost or given up for a new one.</td>
           </tr>
           <tr>
+            <td>The code of the last online game you were in, and when you were last in it</td>
+            <td>Your device</td>
+            <td>An hour after you were last in that game (the game forgets it then, at the latest the
+              next time its menu opens), or until you join another online game.</td>
+          </tr>
+          <tr>
             <td>The Google sign-in token</td>
             <td>Not kept</td>
             <td>The game holds it only while it signs you in, and never stores it.</td>
           </tr>
           <tr>
             <td>Your Climb Bros account at Epic: its account ID, its link to your Google account (or to
-              your device's anonymous ID) and the name it was last signed in with</td>
+              your device's anonymous ID) and the player name it was last signed in with</td>
             <td>Epic</td>
             <td>Until you use <em>Forget this account</em> or ask us to delete it.</td>
           </tr>
@@ -155,10 +163,11 @@ export default function ClimbBrosPrivacy() {
         Your saved run: the tower, how far the team got, your things and coins, the time on the clock,
         and the player name and number of each player in it, so that any of you can host it again.
         Your settings: graphics, controls and the layout of the buttons, look speed, aim help,
-        haptics, less flicker, colour-blind-friendly colours and first-time tips. Also your player
-        name, the tips you have seen, your best climb of today's tower, the Ascensions you have
-        unlocked, and a random number that identifies this installation of the game to the others'
-        games.
+        haptics, less flicker, colour-blind-friendly colours and first-time tips. Also the player
+        name you typed, the code of the last online game you were in (to get back into it within an
+        hour if your game closes), the tips you have seen, your best climb of today's tower, the
+        Ascensions you have unlocked, and a random number that identifies this installation of the
+        game to the others' games.
       </p>
       <p>
         None of this contains your email address, phone number, location, contacts or photos.
@@ -169,14 +178,13 @@ export default function ClimbBrosPrivacy() {
       <p>
         Signing in with Google is your choice: online play works without it. When you sign in, Google
         gives the game a sign-in token. It identifies your Google account and includes your name, email
-        address and a link to your profile picture. The game uses it for two things only:
+        address and a link to your profile picture. The game uses it for one thing only: it passes
+        the token to Epic Online Services, which checks it and signs you in to your Climb Bros account
+        there, the same account on any device. It does not use your name: your player name is the one
+        you type.
       </p>
-      <ul>
-        <li>it passes the token to Epic Online Services, which checks it and signs you in to your Climb Bros account there, the same account on any device;</li>
-        <li>it suggests your first name as your player name, which you can change at any time.</li>
-      </ul>
       <p>
-        The game does not store the token, your email address or your picture.
+        The game does not store the token, your name, your email address or your picture.
       </p>
       <p>
         Climb Bros' use and transfer of information received from Google APIs adheres to the{" "}
