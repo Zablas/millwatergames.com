@@ -11,7 +11,8 @@ export default function NotFound() {
       <p className="meta">There is nothing at this address.</p>
       <p>
         Go to <a href="/">Millwater Games</a>, or straight to{" "}
-        <a href="/thalassa">Thalassa</a> or <a href="/star-tap">Star Tap</a>.
+        <a href="/thalassa">Thalassa</a>, <a href="/star-tap">Star Tap</a> or{" "}
+        <a href="/climb-bros">Climb Bros</a>.
       </p>
     </main>
   );
