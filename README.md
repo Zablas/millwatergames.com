@@ -37,7 +37,7 @@ Changing an address means changing it in every place below as well.
 |---|---|
 | `millwatergames.com` | Google Search Console (Domain property, verified by DNS TXT in Cloudflare); Google Cloud → Google Auth Platform → Branding → Authorized domains (Thalassa's project, Climb Bros' project, and Star Tap's if it has branding) |
 | `/thalassa` | Google Cloud → Branding → Application home page (Thalassa); Play Console → Thalassa → Store settings → Website (AdMob reads its host for app-ads.txt) |
-| `/thalassa/privacy` | Google Cloud → Branding → Application privacy policy link; Play Console → Thalassa → App content → Privacy policy; AdMob → Privacy & messaging → Thalassa's privacy policy URL; Epic Developer Portal → Thalassa → Brand settings |
+| `/thalassa/privacy` | Google Cloud → Branding → Application privacy policy link; Play Console → Thalassa → App content → Privacy policy; AdMob → Privacy & messaging → Thalassa's privacy policy URL; Epic Developer Portal → Thalassa → Brand settings; App Store Connect → Thalassa → App Information → Privacy Policy URL, once it is there |
 | `/thalassa/privacy#delete` | Play Console → Thalassa → App content → Data safety → Delete account URL |
 | `/star-tap` | Play Console → Star Tap → Store settings → Website |
 | `/star-tap/privacy` | Play Console → Star Tap → App content → Privacy policy; AdMob → Privacy & messaging → Star Tap's privacy policy URL |
