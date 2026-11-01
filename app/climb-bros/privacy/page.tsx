@@ -13,7 +13,7 @@ export default function ClimbBrosPrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Climb Bros</h1>
-      <p className="meta">Last updated: 31 October 2026</p>
+      <p className="meta">Last updated: 1 November 2026</p>
 
       <p className="lead">
         Climb Bros is a climbing game for one to four players, published by Millwater Games. This
@@ -34,6 +34,12 @@ export default function ClimbBrosPrivacy() {
         with your Google account, so that you are the same player on any device. Google, Epic and the
         players in your game then receive the information described below. We never sell it.
       </p>
+      <p>
+        In an online game you can <strong>talk</strong> to the other players: the game uses your
+        microphone only while you hold TALK, and your voice goes live, through Epic, to the players in
+        your game. Nothing is recorded. If you use <strong>Google Play Games</strong>, the achievements
+        you earn and your climbs of today's tower go to it, under your Play Games profile.
+      </p>
 
       <h2>How information is captured</h2>
       <p>
@@ -44,13 +50,19 @@ export default function ClimbBrosPrivacy() {
         <li><strong>What you type or choose:</strong> the player name you type to play with others; the pings and quick-chat phrases
           you send; when you host, the tower you climb (today's tower or a new one, and its Ascension)
           and the code that lets friends join; and anything you write to us by email.</li>
+        <li><strong>What you say:</strong> in an online game, while you hold TALK, your voice, picked up
+          by your device's microphone, which the game asks your permission for the first time you hold
+          TALK.</li>
         <li><strong>What the game records as you play:</strong> your saved run, your settings, the tips
-          you have seen, your best climb of today's tower, the Ascensions you have unlocked, the code of
-          the last online game you were in and when you were last in it, and a random number that this
+          you have seen, your best climb of today's tower, the Ascensions you have unlocked, the
+          achievements you have earned and how far you are towards the others, the code of the last
+          online game you were in and when you were last in it, and a random number that this
           installation of the game keeps.</li>
         <li><strong>What Google gives the game when you sign in:</strong> with <em>Sign in with Google</em>,
           a sign-in token that identifies your Google account and includes your name, email address and a
           link to your profile picture.</li>
+        <li><strong>What Google Play Games tells the game:</strong> if you use Play Games on your device,
+          whether you are signed in to it. The game asks Play Games for nothing else about you.</li>
         <li><strong>What is gathered automatically from your device:</strong> by Epic Online Services,
           while you play online, your IP address, to connect you.</li>
       </ul>
@@ -66,6 +78,11 @@ export default function ClimbBrosPrivacy() {
         <li><strong>To sign you in:</strong> the Google sign-in token is passed to Epic Online Services,
           which checks it and signs you in to your Climb Bros account. The name in it is not used: your
           player name is the one you type.</li>
+        <li><strong>To talk:</strong> while you hold TALK, your voice goes to the other players in your
+          game, who hear it from where your player stands.</li>
+        <li><strong>For achievements and today's tower's leaderboard:</strong> the achievements you earn
+          are kept on your device and, with your times on today's tower, sent to Google Play Games if you
+          are signed in to it.</li>
         <li><strong>To answer you</strong> when you email us.</li>
       </ul>
       <p>
@@ -81,22 +98,29 @@ export default function ClimbBrosPrivacy() {
           <tr>
             <td><strong>Epic Games</strong> (Epic Online Services, working for the game)</td>
             <td>When you play online: the Google sign-in token if you sign in with Google, your Climb Bros
-              account ID and player name, your game's details, the game sent between players, and your
-              IP address.</td>
-            <td>To sign you in, to gather the players of a game and to connect your devices, directly or
-              through Epic's relay servers.</td>
+              account ID and player name, your game's details, the game sent between players, your voice
+              while you hold TALK, and your IP address.</td>
+            <td>To sign you in, to gather the players of a game, to connect your devices, directly or
+              through Epic's relay servers, and to carry the players' voices to each other.</td>
           </tr>
           <tr>
             <td><strong>Google</strong></td>
-            <td>Your sign-in, when you choose Sign in with Google.</td>
-            <td>To sign you in.</td>
+            <td>Your sign-in, when you choose Sign in with Google. With Google Play Games, the achievements
+              you earn and your times on today's tower.</td>
+            <td>To sign you in; to keep your achievements and show today's tower's leaderboard.</td>
           </tr>
           <tr>
             <td><strong>The other players in your game</strong></td>
             <td>Your player name, the number that identifies you to their games, everything you do in the
-              game, the run itself when you host it, and, when your devices connect directly, your IP
-              address.</td>
+              game, your voice while you hold TALK, the run itself when you host it, and, when your devices
+              connect directly, your IP address.</td>
             <td>To play together.</td>
+          </tr>
+          <tr>
+            <td><strong>Other Google Play Games players</strong></td>
+            <td>With Google Play Games, your Play Games profile name and picture and your time, on today's
+              tower's leaderboard.</td>
+            <td>To compare climbs. Play Games' own settings decide who sees your profile.</td>
           </tr>
         </tbody>
       </table>
@@ -119,6 +143,17 @@ export default function ClimbBrosPrivacy() {
               time; it is forgotten when the run is won, lost or given up for a new one.</td>
           </tr>
           <tr>
+            <td>The achievements you have earned and how far you are towards the others</td>
+            <td>Your device</td>
+            <td>Until you clear the game's storage or uninstall it.</td>
+          </tr>
+          <tr>
+            <td>Your voice</td>
+            <td>Not kept</td>
+            <td>It goes live to the other players while you hold TALK; the game, Epic and we record
+              nothing.</td>
+          </tr>
+          <tr>
             <td>The code of the last online game you were in, and when you were last in it</td>
             <td>Your device</td>
             <td>An hour after you were last in that game (the game forgets it then, at the latest the
@@ -134,6 +169,12 @@ export default function ClimbBrosPrivacy() {
               your device's anonymous ID) and the player name it was last signed in with</td>
             <td>Epic</td>
             <td>Until you use <em>Forget this account</em> or ask us to delete it.</td>
+          </tr>
+          <tr>
+            <td>Your achievements and times on today's tower in Google Play Games</td>
+            <td>Google, under your Play Games profile</td>
+            <td>Until you delete your Play Games profile. Today's leaderboard starts afresh each day; its
+              weekly and all-time views keep your best.</td>
           </tr>
           <tr>
             <td>A game's details</td>
@@ -163,11 +204,12 @@ export default function ClimbBrosPrivacy() {
         Your saved run: the tower, how far the team got, your things and coins, the time on the clock,
         and the player name and number of each player in it, so that any of you can host it again.
         Your settings: graphics, controls and the layout of the buttons, look speed, aim help,
-        haptics, less flicker, colour-blind-friendly colours and first-time tips. Also the player
-        name you typed, the code of the last online game you were in (to get back into it within an
-        hour if your game closes), the tips you have seen, your best climb of today's tower, the
-        Ascensions you have unlocked, and a random number that identifies this installation of the
-        game to the others' games.
+        haptics, less flicker, colour-blind-friendly colours, first-time tips and voice chat. Also the
+        player name you typed, the code of the last online game you were in (to get back into it within
+        an hour if your game closes), the tips you have seen, your best climb of today's tower, the
+        Ascensions you have unlocked, the achievements you have earned and how far you are towards the
+        others (enemies beaten, metres climbed, coins collected and the like), and a random number that
+        identifies this installation of the game to the others' games.
       </p>
       <p>
         None of this contains your email address, phone number, location, contacts or photos.
@@ -220,6 +262,12 @@ export default function ClimbBrosPrivacy() {
             <td>To play. The devices connect directly when they can, or through Epic's relay servers
               when they cannot.</td>
           </tr>
+          <tr>
+            <td>Voice</td>
+            <td>Your voice while you hold TALK in an online game, and the other players' voices to you.</td>
+            <td>So that the players in a game can talk. Epic carries it live through its voice servers; it
+              is not recorded.</td>
+          </tr>
         </tbody>
       </table>
       <p>
@@ -227,10 +275,26 @@ export default function ClimbBrosPrivacy() {
         <a href="https://www.epicgames.com/site/en-US/privacypolicy">Epic Games Privacy Policy</a>.
       </p>
 
+      <h2>Google Play Games</h2>
+      <p>
+        If you use Google Play Games on your device, it signs you in by itself as the game starts (or
+        when you ask it to, from the game's Achievements page). The game then sends Play Games the
+        achievements you earn and, when you reach the peak of today's tower, your time. Play Games
+        shows them under your Play Games profile, and your time on today's tower's leaderboard, where
+        other Play Games players see your profile name, picture and time. The game asks Play Games for
+        nothing about you except whether you are signed in.
+      </p>
+      <p>
+        Google's handling of this information is governed by the{" "}
+        <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Who sees your Play
+        Games profile, and deleting it, are in the Play Games app's settings.
+      </p>
+
       <h2>What other players see</h2>
       <p>
         The players in a game with you see your player name and everything that happens in the game:
-        where you are and what you do, your things and coins, and the pings and chat phrases you send.
+        where you are and what you do, your things and coins, and the pings and chat phrases you send,
+        and hear your voice while you hold TALK.
         Their games also receive the number that identifies you (online, your Climb Bros account ID at
         Epic), so that you get your place back if your game closes. When your devices connect directly,
         online or on the same network, theirs also receive your IP address, as in any game played peer
@@ -242,9 +306,12 @@ export default function ClimbBrosPrivacy() {
 
       <h2>Permissions</h2>
       <p>
-        Climb Bros requests internet and network-state access (to play together) and vibration for
-        haptic feedback (which you can turn off in the pause menu). The game does not request access to
-        your location, camera, microphone, contacts, photos or files.
+        Climb Bros requests internet and network-state access (to play together), vibration for haptic
+        feedback (which you can turn off in the pause menu), and the microphone and audio settings for
+        voice chat. The microphone is asked for the first time you hold TALK in an online game, and used
+        only while you hold it; you can refuse it and still hear the others, or turn voice chat off in
+        the pause menu. The game does not request access to your location, camera, contacts, photos or
+        files.
       </p>
 
       <h2>Children</h2>
@@ -266,6 +333,8 @@ export default function ClimbBrosPrivacy() {
         <li><strong>On your device:</strong> uninstall the game, or clear its storage in your device's app settings.</li>
         <li><strong>Your Climb Bros account at Epic:</strong> use <em>Forget this account</em> in the game's online menu. It unlinks your Google account from your Climb Bros account ID and removes the device's anonymous ID. Or email us and we will have it deleted.</li>
         <li><strong>Online games:</strong> Epic removes a game's details when it closes.</li>
+        <li><strong>Google Play Games:</strong> your achievements and times are part of your Play Games
+          profile; delete it in the Play Games app's settings.</li>
         <li><strong>Google:</strong> remove Climb Bros' access to your Google account at{" "}
           <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>.</li>
         <li><strong>Other players' devices:</strong> a run you played together stays saved on the devices of the others who played it, with your player name and number in it, as part of their own game, until it ends.</li>
