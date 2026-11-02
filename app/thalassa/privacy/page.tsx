@@ -14,7 +14,7 @@ export default function ThalassaPrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Thalassa</h1>
-      <p className="meta">Last updated: 1 November 2026</p>
+      <p className="meta">Last updated: 2 November 2026</p>
 
       <p className="lead">
         Thalassa is a mobile strategy game for Android and iPhone, published by Millwater Games. This
@@ -47,13 +47,15 @@ export default function ThalassaPrivacy() {
 
       <h2>How information is captured</h2>
       <p>
-        Millwater Games has no servers, and the game sends us nothing. Information is captured in these
-        ways:
+        Millwater Games has no servers, and the game sends us nothing: even the email that{" "}
+        <em>Delete account</em> prepares is sent by you, from your own email app. Information is
+        captured in these ways:
       </p>
       <ul>
         <li><strong>What you type or choose:</strong> your captain's name; in a harbour, the people you
           play and whether you are ready, and, if you host, the world, the rivals, the round timer and
-          whether the harbour is open to all; and anything you write to us by email.</li>
+          whether the harbour is open to all; and anything you write to us by email, such as the request
+          to delete your Thalassa account that <em>Delete account</em> prepares, with the account's ID.</li>
         <li><strong>What the game records as you play:</strong> your saved games, your settings, your
           progress through The First Voyage, the tips you have seen, the achievements you have earned and,
           when you play together, your moves.</li>
@@ -106,7 +108,8 @@ export default function ThalassaPrivacy() {
           version.</li>
         <li><strong>To make the game run better:</strong> on Android, we see the performance
           measurements only as statistics per device model in Google Play Console.</li>
-        <li><strong>To answer you</strong> when you email us.</li>
+        <li><strong>To answer you</strong> when you email us, and to delete your Thalassa account at Epic
+          when you ask, by the account ID your request gives.</li>
       </ul>
       <p>
         We never sell information, and information from Google or Apple sign-in is never used for
@@ -176,7 +179,7 @@ export default function ThalassaPrivacy() {
           <tr>
             <td>The anonymous ID Epic creates for your device</td>
             <td>Your device</td>
-            <td>Until you use <em>Forget this account</em>, which deletes it.</td>
+            <td>Until you use <em>Delete account</em>, which deletes it.</td>
           </tr>
           <tr>
             <td>The Google or Apple sign-in token, and the name Apple shares</td>
@@ -187,14 +190,15 @@ export default function ThalassaPrivacy() {
             <td>The links between your Thalassa account at Epic and your Google account, Apple Account or
               device's anonymous ID</td>
             <td>Epic</td>
-            <td>Until you use <em>Forget this account</em>, which removes them, so nothing can sign in to
-              that account again.</td>
+            <td>Until you use <em>Delete account</em>, which removes them, so nothing can sign in to that
+              account again.</td>
           </tr>
           <tr>
             <td>Your Thalassa account at Epic: its account ID and your captain's name</td>
             <td>Epic</td>
-            <td>Until you ask us to delete it. Epic gives the game no way to delete it, so <em>Forget this
-              account</em> leaves it at Epic, linked to nothing.</td>
+            <td>Until we delete it, within one month of your request. Epic gives the game no way to delete
+              it, so <em>Delete account</em> leaves it at Epic, linked to nothing, and opens that request
+              as an email to us, with the account's ID.</td>
           </tr>
           <tr>
             <td>A harbour's details</td>
@@ -263,7 +267,7 @@ export default function ThalassaPrivacy() {
       <p>
         None of this contains your email address, phone number, location, contacts or photos.
         Uninstalling the game deletes it. Epic's software also keeps the anonymous ID it creates for
-        your device; <em>Forget this account</em> deletes it.
+        your device; <em>Delete account</em> deletes it.
       </p>
 
       <h2>Signing in with Google</h2>
@@ -487,16 +491,19 @@ export default function ThalassaPrivacy() {
 
       <h2 id="delete">Keeping and deleting your data</h2>
       <p>
-        <strong>To delete your Thalassa account</strong> and the data tied to it, email{" "}
-        <a href="mailto:millwatergames@gmail.com?subject=Delete%20my%20Thalassa%20account">millwatergames@gmail.com</a>{" "}
-        with the subject “Delete my Thalassa account”. We delete it within one month and tell you when it
-        is done. In the game, <em>Forget this account</em> (below) unlinks it from your sign-in at once,
-        so nothing can reach it again, but it cannot delete the account itself at Epic. What else you
-        can delete, and what stays, is listed here:
+        <strong>To delete your Thalassa account</strong> and the data tied to it, use{" "}
+        <em>Delete account</em> on the game's Sail together screen, beside your captain's name (tap it
+        twice to confirm). It removes your sign-in from the account at once, so nothing can reach it
+        again, and opens an email to us in your email app: to{" "}
+        <a href="mailto:millwatergames@gmail.com?subject=Delete%20my%20Thalassa%20account">millwatergames@gmail.com</a>,
+        with the subject “Delete my Thalassa account” and the account's ID, which the screen also shows
+        for you to copy. Send it, and we delete the account at Epic within one month and tell you when
+        it is done. You can also write to us yourself, with that subject. What else you can delete, and
+        what stays, is listed here:
       </p>
       <ul>
         <li><strong>On your device:</strong> uninstall the game, or, on Android, clear its storage in your device's app settings.</li>
-        <li><strong>Your Thalassa account at Epic:</strong> use <em>Forget this account</em> on the game's Sail together screen, beside your captain's name. It unlinks your Google account or Apple Account from your Thalassa account ID and removes the device's anonymous ID, so nothing can sign in to that account again; the next time you sail together, you start a new one. Epic gives the game no way to delete the account itself, so its ID and your captain's name stay at Epic, linked to nothing, until you email us and we have them deleted.</li>
+        <li><strong>Your Thalassa account at Epic:</strong> <em>Delete account</em> unlinks your Google account or Apple Account from your Thalassa account ID, removes the device's anonymous ID and clears your captain's name on the device, so nothing can sign in to that account again; the next time you sail together, you start a new one. Your saved voyages stay on the device. Epic gives the game no way to delete the account itself, so its ID and your captain's name stay at Epic, linked to nothing, until we delete them, as the email that Delete account opens asks us to. In Thalassa 1.1.0 and earlier the button is called <em>Forget this account</em>: it removes your sign-in in the same way, but it opens no email and keeps your captain's name on the device.</li>
         <li><strong>Harbours:</strong> Epic removes a harbour's information when it closes.</li>
         <li><strong>Google:</strong> remove Thalassa's access to your Google account at{" "}
           <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>.</li>
