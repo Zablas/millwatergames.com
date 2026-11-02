@@ -48,6 +48,7 @@ Changing an address means changing it in every place below as well.
 | `/climb-bros/privacy#delete` | Play Console → Climb Bros → App content → Data safety → Delete account URL, once it is there |
 | `/block-puzzle` | Play Console → Falling Block Match Puzzle → Store settings → Website (AdMob reads its host for app-ads.txt); Google Cloud → Branding → Application home page (its Play Games project); both once they are there |
 | `/block-puzzle/privacy` | Play Console → Falling Block Match Puzzle → App content → Privacy policy; AdMob → Privacy & messaging → its privacy policy URL; Google Cloud → Branding → Application privacy policy link (its Play Games project); all once they are there |
+| `/block-puzzle/privacy#delete` | Play Console → Falling Block Match Puzzle → App content → Data safety → Delete data URL |
 | `/app-ads.txt` | found by AdMob at the root of the Website host of both apps; one line for the one AdMob account |
 
 Google requires a game's home page to link to the same privacy policy URL as its consent screen,

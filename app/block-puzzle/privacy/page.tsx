@@ -13,7 +13,7 @@ export default function BlockPuzzlePrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Falling Block Match Puzzle</h1>
-      <p className="meta">Last updated: 2 November 2026</p>
+      <p className="meta">Last updated: 3 November 2026</p>
 
       <p className="lead">
         Falling Block Match Puzzle is a mobile game published by Millwater Games. This
@@ -163,19 +163,32 @@ export default function BlockPuzzlePrivacy() {
         app, please contact us and we will help you address it.
       </p>
 
-      <h2>Keeping and deleting your data</h2>
-      <ul>
-        <li><strong>On your device:</strong> uninstall the game, or clear its storage in your device's app settings.</li>
-        <li><strong>In Google Play Games:</strong> delete the game's saved data and remove it from your Play Games profile at{" "}
-          <a href="https://play.google.com/games">play.google.com/games</a>. The copy of your progress in Google Drive can also be deleted from Drive's settings, under <em>Manage apps</em>.</li>
-        <li><strong>Advertising:</strong> reset or delete your Advertising ID in your device settings, and manage what Google holds at{" "}
-          <a href="https://myadcenter.google.com">myadcenter.google.com</a>.</li>
-        <li><strong>Purchases:</strong> your purchase history is held by Google Play and managed through your Google account.</li>
-      </ul>
+      <h2 id="delete">Deleting your data</h2>
       <p>
-        Because we hold no data about you ourselves, requests to access, correct, export
-        or delete personal data are handled through Google, using the links above. If you
-        are unsure where to start, contact us and we will point you to the right place.
+        Falling Block Match Puzzle keeps nothing about you on any server of ours: what it keeps is
+        on your phone or in your own Google account, and you can delete all of it yourself.
+      </p>
+      <ol>
+        <li><strong>Your save on the phone</strong> (scores, progress, settings, the Remove Ads flag and your usual play hours): uninstall the game, or clear its storage in your device's app settings. It is deleted at once.</li>
+        <li><strong>The cloud copy of your progress</strong>, if you signed in to Play Games: in Google Drive on the web, open <em>Settings → Manage apps</em>, find Falling Block Match Puzzle and choose <em>Delete hidden app data</em>.</li>
+        <li><strong>Your leaderboard scores and achievements:</strong> in the Google Play Games app's settings, delete this game's data. You can delete one game's data without deleting your Play Games account. See also{" "}
+          <a href="https://play.google.com/games">play.google.com/games</a>.</li>
+        <li><strong>Advertising data:</strong> reset or delete your Advertising ID in your device settings, and manage what Google holds at{" "}
+          <a href="https://myadcenter.google.com">myadcenter.google.com</a>.</li>
+      </ol>
+      <p>
+        <strong>What is kept:</strong> your purchase of Remove Ads stays in your Google Play purchase
+        history, so you can restore it on any device; Google holds it, not us. Google keeps the data its
+        services collect for the periods in its{" "}
+        <a href="https://policies.google.com/technologies/retention">retention policy</a>. We keep
+        nothing, so no retention period of ours applies.
+      </p>
+      <p>
+        You can also ask us: write to{" "}
+        <a href="mailto:millwatergames@gmail.com?subject=Delete%20my%20Falling%20Block%20Match%20Puzzle%20data">millwatergames@gmail.com</a>{" "}
+        with the subject “Delete my Falling Block Match Puzzle data”. As we hold no data about you
+        ourselves, we will reply with the steps above for your case. Requests to access, correct or
+        export personal data are handled through Google in the same way.
       </p>
 
       <h2>Your rights</h2>
