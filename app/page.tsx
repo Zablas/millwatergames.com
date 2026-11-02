@@ -39,6 +39,15 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="card game">
+        <img src="/block-puzzle/icon-512.png" alt="Falling Block Match Puzzle's icon: four glossy tiles, a heart, an A, a Z and a star, on a night sky" />
+        <div>
+          <h3><a href="/block-puzzle">Falling Block Match Puzzle</a></h3>
+          <p>Three falling block puzzles in one: color floods, words and number sums.</p>
+          <p className="muted">Coming to Google Play · <a href="/block-puzzle/privacy">Privacy policy</a></p>
+        </div>
+      </div>
+
       <h2>Contact</h2>
       <p>
         Bug reports, questions and complaints about any of our games:{" "}

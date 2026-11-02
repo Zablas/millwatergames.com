@@ -201,7 +201,7 @@ export default function BlockPuzzlePrivacy() {
       </p>
 
       <footer>
-        <a href="/">Millwater Games</a>
+        <a href="/block-puzzle">Falling Block Match Puzzle</a> · <a href="/">Millwater Games</a>
       </footer>
     </main>
   );

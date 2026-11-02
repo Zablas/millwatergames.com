@@ -13,6 +13,7 @@ free plan). Every push to `main` deploys.
 | Star Tap's privacy policy | https://millwatergames.com/star-tap/privacy | `app/star-tap/privacy/page.tsx` |
 | Climb Bros | https://millwatergames.com/climb-bros | `app/climb-bros/page.tsx` |
 | Climb Bros' privacy policy | https://millwatergames.com/climb-bros/privacy | `app/climb-bros/privacy/page.tsx` |
+| Falling Block Match Puzzle | https://millwatergames.com/block-puzzle | `app/block-puzzle/page.tsx` |
 | Falling Block Match Puzzle's privacy policy | https://millwatergames.com/block-puzzle/privacy | `app/block-puzzle/privacy/page.tsx` |
 | AdMob's app-ads.txt | https://millwatergames.com/app-ads.txt | `public/app-ads.txt` |
 
@@ -45,12 +46,13 @@ Changing an address means changing it in every place below as well.
 | `/climb-bros` | Google Cloud → Branding → Application home page (Climb Bros); Play Console → Climb Bros → Store settings → Website, once it is there |
 | `/climb-bros/privacy` | Google Cloud → Branding → Application privacy policy link (Climb Bros); Play Console → Climb Bros → App content → Privacy policy, once it is there |
 | `/climb-bros/privacy#delete` | Play Console → Climb Bros → App content → Data safety → Delete account URL, once it is there |
+| `/block-puzzle` | Play Console → Falling Block Match Puzzle → Store settings → Website (AdMob reads its host for app-ads.txt); Google Cloud → Branding → Application home page (its Play Games project); both once they are there |
 | `/block-puzzle/privacy` | Play Console → Falling Block Match Puzzle → App content → Privacy policy; AdMob → Privacy & messaging → its privacy policy URL; Google Cloud → Branding → Application privacy policy link (its Play Games project); all once they are there |
 | `/app-ads.txt` | found by AdMob at the root of the Website host of both apps; one line for the one AdMob account |
 
 Google requires a game's home page to link to the same privacy policy URL as its consent screen,
-so keep the link on `/thalassa` exactly `/thalassa/privacy`, and on `/climb-bros` exactly
-`/climb-bros/privacy`.
+so keep the link on `/thalassa` exactly `/thalassa/privacy`, on `/climb-bros` exactly
+`/climb-bros/privacy`, and on `/block-puzzle` exactly `/block-puzzle/privacy`.
 
 ## Updating a policy
 
