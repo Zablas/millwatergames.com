@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
-// Star Tap's privacy policy. Its URL is registered in Play Console (privacy policy) and AdMob
-// (the GDPR message). Whenever what the game stores, sends or asks for changes, update this
+// Star Tap's privacy policy. Its URL is registered in Play Console (privacy policy), AdMob
+// (the GDPR message) and App Store Connect (App Information > Privacy Policy URL). Whenever what the game stores, sends or asks for changes, update this
 // page and its date.
 export const metadata: Metadata = {
   title: "Star Tap — Privacy Policy",
@@ -13,7 +13,7 @@ export default function StarTapPrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Star Tap</h1>
-      <p className="meta">Last updated: 2 September 2026</p>
+      <p className="meta">Last updated: 3 November 2026</p>
 
       <p className="lead">
         Star Tap is a mobile game published by Millwater Games. This policy explains
@@ -25,12 +25,13 @@ export default function StarTapPrivacy() {
       <p>
         Star Tap has no servers of its own and no account system. We do not collect,
         receive or store your personal information. Your scores, progress and settings
-        are saved on your own device, and optionally to your own Google account.
+        are saved on your own device, and optionally to your own Google account (on
+        Android) or your own iCloud (on iPhone).
       </p>
       <p>
-        The game does include Google services — advertising, in-app purchases and Play
-        Games — and those services collect data under Google's own privacy policy. That
-        is described below.
+        The game does include outside services — advertising, in-app purchases, and Play
+        Games on Android or Game Center on iPhone — and those services collect data under
+        their own privacy policies. That is described below.
       </p>
 
       <h2>What the game stores on your device</h2>
@@ -45,7 +46,7 @@ export default function StarTapPrivacy() {
         contacts and no photos. Uninstalling the game deletes it.
       </p>
 
-      <h2>Google services used in the game</h2>
+      <h2>Google services used in the game on Android</h2>
 
       <table>
         <thead>
@@ -89,6 +90,48 @@ export default function StarTapPrivacy() {
         <a href="https://support.google.com/admob/answer/6128543">how Google uses data from apps that use its services</a>.
       </p>
 
+      <h2>Services used in the game on iPhone</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Service</th>
+            <th>What it handles</th>
+            <th>Why</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Google AdMob</strong> (Google)</td>
+            <td>Device and app information, IP address, and how you interact with ads. The game
+              never asks for permission to track you, so the ads have no access to your
+              advertising identifier.</td>
+            <td>To show ads, measure them, and prevent fraud. This is the only part of the game
+              that involves advertising data.</td>
+          </tr>
+          <tr>
+            <td><strong>App Store purchases</strong> (Apple)</td>
+            <td>Your purchases. Payment details are handled entirely by Apple — the game never
+              sees them. The game stores only a record of what you own.</td>
+            <td>To sell and restore optional in-app purchases, such as removing ads.</td>
+          </tr>
+          <tr>
+            <td><strong>Game Center</strong> (Apple)</td>
+            <td>Your Game Center player identifier, leaderboard scores, achievements, and a
+              backup copy of your save file kept as a Game Center saved game in your own
+              iCloud.</td>
+            <td>To sync progress between your devices and to run leaderboards and achievements.
+              This depends on you being signed in to Game Center.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        Google's handling of the data is governed by the{" "}
+        <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, and Apple's by the{" "}
+        <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.
+      </p>
+
       <h2>Advertising and your consent</h2>
       <p>
         The game shows ads in three places: a banner on the title screen, an
@@ -103,22 +146,24 @@ export default function StarTapPrivacy() {
       <p>
         <strong>You can change your choice at any time</strong> using the{" "}
         <strong>PRIVACY</strong> button on the game's title screen, which reopens the
-        same consent form. You can also reset your Advertising ID, or opt out of ad
-        personalisation entirely, in your device settings under{" "}
-        <em>Settings → Google → Ads</em>.
+        same consent form. On Android you can also reset your Advertising ID, or opt out of
+        ad personalisation entirely, in your device settings under{" "}
+        <em>Settings → Google → Ads</em>. On iPhone the game has no access to your
+        advertising identifier.
       </p>
 
       <h2>Analytics</h2>
       <p>
-        The game reports anonymous, aggregate gameplay counters to Google Play Games —
+        On Android, the game reports anonymous, aggregate gameplay counters to Google Play Games —
         for example, how many times a game mode was played, or how often a particular
         level was completed. These are totals across all players. They are not linked to
         you, and we cannot see any individual player's activity in them. We use them
-        only to judge whether the game's difficulty is fair.
+        only to judge whether the game's difficulty is fair. On iPhone the game sends no
+        gameplay counters at all.
       </p>
       <p>
         The game contains no third-party analytics, advertising-attribution or crash
-        reporting software beyond the Google services listed above.
+        reporting software beyond the services listed above.
       </p>
 
       <h2>Permissions</h2>
@@ -127,7 +172,8 @@ export default function StarTapPrivacy() {
         Games can work. The remaining permissions in the app — including the advertising
         ID permission and Google's Privacy Sandbox permissions — are added automatically
         by the Google advertising and Play Services libraries. The game does not request
-        access to your location, camera, microphone, contacts, photos or files.
+        access to your location, camera, microphone, contacts, photos or files. On iPhone
+        the game asks for no permissions at all.
       </p>
 
       <h2>Children</h2>
@@ -145,11 +191,12 @@ export default function StarTapPrivacy() {
           <a href="https://play.google.com/games">play.google.com/games</a>.</li>
         <li><strong>Advertising:</strong> reset or delete your Advertising ID in your device settings, and manage what Google holds at{" "}
           <a href="https://myadcenter.google.com">myadcenter.google.com</a>.</li>
-        <li><strong>Purchases:</strong> your purchase history is held by Google Play and managed through your Google account.</li>
+        <li><strong>In Game Center and iCloud:</strong> delete the game's saved game from your iCloud storage in your iPhone's Settings, and manage your Game Center profile under <em>Settings → Game Center</em>.</li>
+        <li><strong>Purchases:</strong> your purchase history is held by Google Play and managed through your Google account, or on iPhone by the App Store and your Apple Account.</li>
       </ul>
       <p>
         Because we hold no data about you ourselves, requests to access, correct, export
-        or delete personal data are handled through Google, using the links above. If you
+        or delete personal data are handled through Google or Apple, using the links above. If you
         are unsure where to start, contact us and we will point you to the right place.
       </p>
 
@@ -159,7 +206,7 @@ export default function StarTapPrivacy() {
         you rights over your personal data, including access, correction, erasure,
         restriction, portability and objection, and the right to withdraw consent at any
         time. As we hold no personal data ourselves, these rights are exercised against
-        Google as the controller of the data described above. You also have the right to
+        Google or Apple as the controller of the data described above. You also have the right to
         complain to your national data protection authority.
       </p>
 
