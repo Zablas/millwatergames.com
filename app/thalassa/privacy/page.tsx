@@ -14,7 +14,7 @@ export default function ThalassaPrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Thalassa</h1>
-      <p className="meta">Last updated: 2 November 2026</p>
+      <p className="meta">Last updated: 3 November 2026</p>
 
       <p className="lead">
         Thalassa is a mobile strategy game for Android and iPhone, published by Millwater Games. This
@@ -54,8 +54,11 @@ export default function ThalassaPrivacy() {
       <ul>
         <li><strong>What you type or choose:</strong> your captain's name; in a harbour, the people you
           play and whether you are ready, and, if you host, the world, the rivals, the round timer and
-          whether the harbour is open to all; and anything you write to us by email, such as the request
-          to delete your Thalassa account that <em>Delete account</em> prepares, with the account's ID.</li>
+          whether the harbour is open to all; the captains you block; and anything you write to us by
+          email, such as the request to delete your Thalassa account that <em>Delete account</em>{" "}
+          prepares, with the account's ID, or a report about another captain that <em>Report</em>{" "}
+          prepares, with that captain's name as you saw it, their player ID, the game's version and, in a
+          harbour, its code.</li>
         <li><strong>What the game records as you play:</strong> your saved games, your settings, your
           progress through The First Voyage, the tips you have seen, the achievements you have earned and,
           when you play together, your moves.</li>
@@ -108,8 +111,11 @@ export default function ThalassaPrivacy() {
           version.</li>
         <li><strong>To make the game run better:</strong> on Android, we see the performance
           measurements only as statistics per device model in Google Play Console.</li>
-        <li><strong>To answer you</strong> when you email us, and to delete your Thalassa account at Epic
-          when you ask, by the account ID your request gives.</li>
+        <li><strong>To answer you</strong> when you email us, to delete your Thalassa account at Epic
+          when you ask, by the account ID your request gives, and to look into a captain you report.</li>
+        <li><strong>To keep playing together pleasant:</strong> a captain's name with a word the game
+          does not allow cannot be chosen and is hidden when another player's game shows it, and the
+          captains you block stay hidden on your device.</li>
       </ul>
       <p>
         We never sell information, and information from Google or Apple sign-in is never used for
@@ -262,7 +268,10 @@ export default function ThalassaPrivacy() {
         to play together, the achievements you have earned, and whether Remove ads has been bought.
         Google's consent tool keeps your choices about ads on the device too. A saved game
         played together also records the captain's name and Epic account ID of each player in it,
-        so that any of you can open that voyage again.
+        so that any of you can open that voyage again. When you block a captain, the game keeps their
+        Epic account ID and the name they last used, so that their name and open voyages stay hidden;
+        this list never leaves your device, and <em>Unblock</em> under <em>Sail together</em>,{" "}
+        <em>Blocked captains</em> removes a captain from it.
       </p>
       <p>
         None of this contains your email address, phone number, location, contacts or photos.
