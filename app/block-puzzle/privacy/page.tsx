@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 
 // Falling Block Match Puzzle's privacy policy. Its URL is registered in Play Console (privacy
-// policy) and AdMob (the GDPR message), and goes on the game's Google Cloud consent screen.
-// Whenever what the game stores, sends or asks for changes, update this page and its date.
+// policy) and AdMob (the GDPR message), goes on the game's Google Cloud consent screen and in
+// App Store Connect (App Information > Privacy Policy URL), and the iPhone game's SETTINGS >
+// PRIVACY POLICY opens it. Whenever what the game stores, sends or asks for changes, update
+// this page and its date.
 export const metadata: Metadata = {
   title: "Falling Block Match Puzzle — Privacy Policy",
   description: "What information Falling Block Match Puzzle handles, who else receives it, and what you can do about it.",
@@ -13,7 +15,7 @@ export default function BlockPuzzlePrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Falling Block Match Puzzle</h1>
-      <p className="meta">Last updated: 5 November 2026</p>
+      <p className="meta">Last updated: 7 November 2026</p>
 
       <p className="lead">
         Falling Block Match Puzzle is a mobile game published by Millwater Games. This
@@ -26,12 +28,12 @@ export default function BlockPuzzlePrivacy() {
         Falling Block Match Puzzle has no servers of its own and no account system. We
         do not collect, receive or store your personal information. Your scores,
         progress and settings are saved on your own device, and optionally to your own
-        Google account.
+        Google account (on Android) or your own iCloud (on iPhone).
       </p>
       <p>
-        The game does include Google services — advertising, an in-app purchase, Play
-        Games and Google Play's updates — and those services collect data under
-        Google's own privacy policy. That is described below.
+        The game does include outside services — advertising, an in-app purchase, Play
+        Games and Google Play's updates on Android, or Game Center on iPhone — and those
+        services collect data under their own privacy policies. That is described below.
       </p>
 
       <h2>What the game stores on your device</h2>
@@ -48,7 +50,7 @@ export default function BlockPuzzlePrivacy() {
         contacts and no photos. Uninstalling the game deletes it.
       </p>
 
-      <h2>Google services used in the game</h2>
+      <h2>Google services used in the game on Android</h2>
 
       <table>
         <thead>
@@ -101,6 +103,47 @@ export default function BlockPuzzlePrivacy() {
         <a href="https://support.google.com/admob/answer/6128543">how Google uses data from apps that use its services</a>.
       </p>
 
+      <h2>Services used in the game on iPhone</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Service</th>
+            <th>What it handles</th>
+            <th>Why</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Google AdMob</strong> (Google)</td>
+            <td>Device and app information, IP address, and how you interact with ads. The game
+              never asks for permission to track you, so the ads have no access to your
+              advertising identifier.</td>
+            <td>To show ads, measure them, and prevent fraud. This is the only part of the game
+              that involves advertising data.</td>
+          </tr>
+          <tr>
+            <td><strong>App Store purchases</strong> (Apple)</td>
+            <td>Your purchase of Remove Ads. Payment details are handled entirely by Apple — the
+              game never sees them. The game stores only a record that you own it.</td>
+            <td>To sell and restore the one optional purchase, removing ads.</td>
+          </tr>
+          <tr>
+            <td><strong>Game Center</strong> (Apple)</td>
+            <td>Your Game Center player identifier, leaderboard scores, achievements, and a
+              copy of your progress kept as a Game Center saved game in your own iCloud.</td>
+            <td>To run leaderboards and achievements and to carry your progress between your
+              devices. This depends on you being signed in to Game Center.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        Google's handling of the data is governed by the{" "}
+        <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, and Apple's by the{" "}
+        <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.
+      </p>
+
       <h2>Advertising and your consent</h2>
       <p>
         The game shows ads in three ways: a banner along the bottom of the title screen,
@@ -121,34 +164,40 @@ export default function BlockPuzzlePrivacy() {
       <p>
         <strong>You can change your choice at any time</strong> using the{" "}
         <strong>PRIVACY</strong> button in the game's Settings, which reopens the
-        same consent form. You can also reset your Advertising ID, or opt out of ad
-        personalisation entirely, in your device settings under{" "}
-        <em>Settings → Google → Ads</em>.
+        same consent form. On Android you can also reset your Advertising ID, or opt out of
+        ad personalisation entirely, in your device settings under{" "}
+        <em>Settings → Google → Ads</em>. On iPhone the game has no access to your
+        advertising identifier.
+      </p>
+      <p>
+        On iPhone, <strong>REPORT AN AD</strong> in the game's Settings opens an email to us in
+        your own mail app. It holds only what you write, and we use it only to look into the
+        ad and reply.
       </p>
 
       <h2>Reminders</h2>
       <p>
-        If you turn reminders on, the game sets them on your device: at most one a day,
+        On Android, if you turn reminders on, the game sets them on your device: at most one a day,
         at the hour you usually play, never on a day you have already played. They are
         created on your phone, and no information leaves it for them. Android asks your
         permission to show notifications first. Turn them off under{" "}
         <strong>REMINDERS</strong> in the game's Settings, or in your device's
-        notification settings.
+        notification settings. The iPhone game has no reminders.
       </p>
 
       <h2>Sharing</h2>
       <p>
-        After a Daily, the <strong>SHARE</strong> button opens your device's share
+        On Android, after a Daily, the <strong>SHARE</strong> button opens your device's share
         sheet with a short text: the mode, the day, your score, your streak and the
         game's Google Play address. You choose where it goes; the game sends nothing
-        by itself.
+        by itself. The iPhone game has no share button.
       </p>
 
       <h2>Analytics</h2>
       <p>
         The game contains no analytics, advertising-attribution or crash reporting
-        software beyond the Google services listed above, and it reports nothing about
-        how you play to us.
+        software beyond the services listed above, and it reports nothing about how you
+        play to us.
       </p>
 
       <h2>Permissions</h2>
@@ -160,7 +209,8 @@ export default function BlockPuzzlePrivacy() {
         the app — including the advertising ID permission and Google's Privacy
         Sandbox permissions — are added automatically by the Google advertising, billing
         and Play Services libraries. The game does not request access to your location,
-        camera, microphone, contacts, photos or files.
+        camera, microphone, contacts, photos or files. On iPhone the game asks for no
+        permissions at all.
       </p>
 
       <h2>Children</h2>
@@ -174,19 +224,20 @@ export default function BlockPuzzlePrivacy() {
       <h2 id="delete">Deleting your data</h2>
       <p>
         Falling Block Match Puzzle keeps nothing about you on any server of ours: what it keeps is
-        on your phone or in your own Google account, and you can delete all of it yourself.
+        on your phone or in your own Google account or iCloud, and you can delete all of it yourself.
       </p>
       <ol>
         <li><strong>Your save on the phone</strong> (scores, progress, settings, the Remove Ads flag and your usual play hours): uninstall the game, or clear its storage in your device's app settings. It is deleted at once.</li>
         <li><strong>The cloud copy of your progress</strong>, if you signed in to Play Games: in Google Drive on the web, open <em>Settings → Manage apps</em>, find Falling Block Match Puzzle and choose <em>Delete hidden app data</em>.</li>
         <li><strong>Your leaderboard scores and achievements:</strong> in the Google Play Games app's settings, delete this game's data. You can delete one game's data without deleting your Play Games account. See also{" "}
           <a href="https://play.google.com/games">play.google.com/games</a>.</li>
+        <li><strong>On iPhone, the cloud copy, scores and achievements:</strong> delete the game's saved game from your iCloud storage in your iPhone's Settings, and manage your Game Center profile under <em>Settings → Game Center</em>.</li>
         <li><strong>Advertising data:</strong> reset or delete your Advertising ID in your device settings, and manage what Google holds at{" "}
           <a href="https://myadcenter.google.com">myadcenter.google.com</a>.</li>
       </ol>
       <p>
-        <strong>What is kept:</strong> your purchase of Remove Ads stays in your Google Play purchase
-        history, so you can restore it on any device; Google holds it, not us. Google keeps the data its
+        <strong>What is kept:</strong> your purchase of Remove Ads stays in your Google Play or App
+        Store purchase history, so you can restore it on any device; Google or Apple holds it, not us. Google keeps the data its
         services collect for the periods in its{" "}
         <a href="https://policies.google.com/technologies/retention">retention policy</a>. We keep
         nothing, so no retention period of ours applies.
@@ -196,7 +247,7 @@ export default function BlockPuzzlePrivacy() {
         <a href="mailto:millwatergames@gmail.com?subject=Delete%20my%20Falling%20Block%20Match%20Puzzle%20data">millwatergames@gmail.com</a>{" "}
         with the subject “Delete my Falling Block Match Puzzle data”. As we hold no data about you
         ourselves, we will reply with the steps above for your case. Requests to access, correct or
-        export personal data are handled through Google in the same way.
+        export personal data are handled through Google or Apple in the same way.
       </p>
 
       <h2>Your rights</h2>
@@ -205,7 +256,7 @@ export default function BlockPuzzlePrivacy() {
         you rights over your personal data, including access, correction, erasure,
         restriction, portability and objection, and the right to withdraw consent at any
         time. As we hold no personal data ourselves, these rights are exercised against
-        Google as the controller of the data described above. You also have the right to
+        Google or Apple as the controller of the data described above. You also have the right to
         complain to your national data protection authority.
       </p>
 
