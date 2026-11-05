@@ -13,7 +13,7 @@ export default function BlockPuzzlePrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Falling Block Match Puzzle</h1>
-      <p className="meta">Last updated: 3 November 2026</p>
+      <p className="meta">Last updated: 5 November 2026</p>
 
       <p className="lead">
         Falling Block Match Puzzle is a mobile game published by Millwater Games. This
@@ -29,9 +29,9 @@ export default function BlockPuzzlePrivacy() {
         Google account.
       </p>
       <p>
-        The game does include Google services — advertising, an in-app purchase and
-        Play Games — and those services collect data under Google's own privacy
-        policy. That is described below.
+        The game does include Google services — advertising, an in-app purchase, Play
+        Games and Google Play's updates — and those services collect data under
+        Google's own privacy policy. That is described below.
       </p>
 
       <h2>What the game stores on your device</h2>
@@ -83,11 +83,19 @@ export default function BlockPuzzlePrivacy() {
               your devices. This is optional and depends on you signing in to Play
               Games.</td>
           </tr>
+          <tr>
+            <td><strong>Google Play in-app updates</strong></td>
+            <td>Whether a newer version of the game is available on Google Play. Google
+              Play itself shows the update screen, downloads the new version and installs
+              it; the game learns only whether a newer version exists.</td>
+            <td>To keep everyone on the current version: when a newer one is out, the game
+              asks you to install it before you play on.</td>
+          </tr>
         </tbody>
       </table>
 
       <p>
-        All three are operated by Google, and their handling of the data is governed by
+        All four are operated by Google, and their handling of the data is governed by
         the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. For
         advertising specifically, see{" "}
         <a href="https://support.google.com/admob/answer/6128543">how Google uses data from apps that use its services</a>.
