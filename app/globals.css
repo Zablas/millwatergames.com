@@ -39,11 +39,18 @@ th { background: #f5f5f5; }
 .game img { width: 72px; height: 72px; border-radius: 16px; flex: none; }
 .game p { margin: .25rem 0 0; }
 
+/* A page's one thing to press. */
+.button {
+  display: inline-block; padding: .7rem 1.6rem; border-radius: 8px;
+  font-weight: 600; color: #fff; background: #a81f17; text-decoration: none;
+}
+
 footer { margin-top: 3rem; font-size: .9rem; color: #666; }
 
 @media (prefers-color-scheme: dark) {
   body { color: #e6e6e6; background: #141414; }
   a { color: #7db2ff; }
+  a.button { color: #fff; }
   th { background: #1e1e1e; }
   td, th { border-color: #333; }
   .card { border-color: #333; }
