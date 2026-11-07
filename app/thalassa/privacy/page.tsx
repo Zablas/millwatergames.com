@@ -185,6 +185,12 @@ export default function ThalassaPrivacy() {
             <td>Until you use <em>Delete account</em>, which deletes it.</td>
           </tr>
           <tr>
+            <td>The ID of a Thalassa account you deleted</td>
+            <td>Your device</td>
+            <td>Until you tap <em>Done</em> on the Sail together screen, after sending the email that{" "}
+              <em>Delete account</em> opens.</td>
+          </tr>
+          <tr>
             <td>The Google sign-in token</td>
             <td>Not kept</td>
             <td>The game holds it only while it signs you in, and never stores it.</td>
@@ -273,7 +279,9 @@ export default function ThalassaPrivacy() {
       <p>
         None of this contains your email address, phone number, location, contacts or photos.
         Uninstalling the game deletes it. Epic's software also keeps the anonymous ID it creates for
-        your device; <em>Delete account</em> deletes it.
+        your device; <em>Delete account</em> deletes it. After <em>Delete account</em>, the game keeps
+        the deleted account's ID on the device, shown on the Sail together screen with our address so
+        you can copy it or open the email again, until you tap <em>Done</em> there.
       </p>
 
       <h2>Signing in with Google</h2>
@@ -488,7 +496,7 @@ export default function ThalassaPrivacy() {
         again, and opens an email to us in your email app: to{" "}
         <a href="mailto:millwatergames@gmail.com?subject=Delete%20my%20Thalassa%20account">millwatergames@gmail.com</a>,
         with the subject “Delete my Thalassa account” and the account's ID, which the screen also shows
-        for you to copy. Send it, and we delete the account at Epic within one month and tell you when
+        for you to copy until you tap <em>Done</em>. Send it, and we delete the account at Epic within one month and tell you when
         it is done. You can also write to us yourself, with that subject. What else you can delete, and
         what stays, is listed here:
       </p>
