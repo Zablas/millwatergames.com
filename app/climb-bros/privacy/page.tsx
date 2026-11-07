@@ -13,7 +13,7 @@ export default function ClimbBrosPrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Climb Bros</h1>
-      <p className="meta">Last updated: 1 November 2026</p>
+      <p className="meta">Last updated: 7 November 2026</p>
 
       <p className="lead">
         Climb Bros is a climbing game for one to four players, published by Millwater Games. This
@@ -38,7 +38,8 @@ export default function ClimbBrosPrivacy() {
         In an online game you can <strong>talk</strong> to the other players: the game uses your
         microphone only while you hold TALK, and your voice goes live, through Epic, to the players in
         your game. Nothing is recorded. If you use <strong>Google Play Games</strong>, the achievements
-        you earn and your climbs of today's tower go to it, under your Play Games profile.
+        you earn, your climbs of today's tower and your saved progress go to it, under your Play Games
+        profile, so your progress can follow you to another phone.
       </p>
 
       <h2>How information is captured</h2>
@@ -83,6 +84,11 @@ export default function ClimbBrosPrivacy() {
         <li><strong>For achievements and today's tower's leaderboard:</strong> the achievements you earn
           are kept on your device and, with your times on today's tower, sent to Google Play Games if you
           are signed in to it.</li>
+        <li><strong>To keep your progress in the cloud:</strong> if you are signed in to Google Play
+          Games, your achievements and how far you are towards the others, the Ascensions you have
+          unlocked, your best climbs of today's tower, the tips you have seen, your player name and
+          your outfit are saved with your Play Games account, so they follow you to another phone. A
+          run in progress stays on its device.</li>
         <li><strong>To answer you</strong> when you email us.</li>
       </ul>
       <p>
@@ -106,8 +112,9 @@ export default function ClimbBrosPrivacy() {
           <tr>
             <td><strong>Google</strong></td>
             <td>Your sign-in, when you choose Sign in with Google. With Google Play Games, the achievements
-              you earn and your times on today's tower.</td>
-            <td>To sign you in; to keep your achievements and show today's tower's leaderboard.</td>
+              you earn, your times on today's tower and your saved progress.</td>
+            <td>To sign you in; to keep your achievements and your progress, and show today's tower's
+              leaderboard.</td>
           </tr>
           <tr>
             <td><strong>The other players in your game</strong></td>
@@ -171,7 +178,7 @@ export default function ClimbBrosPrivacy() {
             <td>Until you use <em>Forget this account</em> or ask us to delete it.</td>
           </tr>
           <tr>
-            <td>Your achievements and times on today's tower in Google Play Games</td>
+            <td>Your achievements, times on today's tower and saved progress in Google Play Games</td>
             <td>Google, under your Play Games profile</td>
             <td>Until you delete your Play Games profile. Today's leaderboard starts afresh each day; its
               weekly and all-time views keep your best.</td>
@@ -333,8 +340,8 @@ export default function ClimbBrosPrivacy() {
         <li><strong>On your device:</strong> uninstall the game, or clear its storage in your device's app settings.</li>
         <li><strong>Your Climb Bros account at Epic:</strong> use <em>Forget this account</em> in the game's online menu. It unlinks your Google account from your Climb Bros account ID and removes the device's anonymous ID. Or email us and we will have it deleted.</li>
         <li><strong>Online games:</strong> Epic removes a game's details when it closes.</li>
-        <li><strong>Google Play Games:</strong> your achievements and times are part of your Play Games
-          profile; delete it in the Play Games app's settings.</li>
+        <li><strong>Google Play Games:</strong> your achievements, times and saved progress are part of
+          your Play Games profile; delete it in the Play Games app's settings.</li>
         <li><strong>Google:</strong> remove Climb Bros' access to your Google account at{" "}
           <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>.</li>
         <li><strong>Other players' devices:</strong> a run you played together stays saved on the devices of the others who played it, with your player name and number in it, as part of their own game, until it ends.</li>
