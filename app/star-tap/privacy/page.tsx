@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 // Star Tap's privacy policy. Its URL is registered in Play Console (privacy policy), AdMob
-// (the GDPR message) and App Store Connect (App Information > Privacy Policy URL). Whenever what the game stores, sends or asks for changes, update this
-// page and its date.
+// (the GDPR message) and App Store Connect (App Information > Privacy Policy URL).
+// Whenever what the game stores, sends or asks for changes, update this page and its date.
 export const metadata: Metadata = {
   title: "Star Tap — Privacy Policy",
   description: "What information Star Tap handles, who else receives it, and what you can do about it.",
@@ -13,7 +13,7 @@ export default function StarTapPrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Star Tap</h1>
-      <p className="meta">Last updated: 3 November 2026</p>
+      <p className="meta">Last updated: 7 November 2026</p>
 
       <p className="lead">
         Star Tap is a mobile game published by Millwater Games. This policy explains
@@ -112,7 +112,8 @@ export default function StarTapPrivacy() {
           <tr>
             <td><strong>App Store purchases</strong> (Apple)</td>
             <td>Your purchases. Payment details are handled entirely by Apple — the game never
-              sees them. The game stores only a record of what you own.</td>
+              sees them. The game's save file keeps each purchase's transaction identifier
+              and what it bought: Remove Ads, Unlimited Energy, energy and Star Dust.</td>
             <td>To sell and restore optional in-app purchases, such as removing ads.</td>
           </tr>
           <tr>
@@ -134,9 +135,10 @@ export default function StarTapPrivacy() {
 
       <h2>Advertising and your consent</h2>
       <p>
-        The game shows ads in three places: a banner on the title screen, an
-        occasional full-screen ad between runs, and optional videos you choose to watch
-        in exchange for a bonus. There are no ads during gameplay.
+        The game shows three kinds of ad: a banner on the title screen and on the
+        results screen after a run, an occasional full-screen ad between runs, and
+        optional videos you choose to watch in exchange for a bonus. There are no ads
+        during gameplay.
       </p>
       <p>
         If you are in the European Economic Area, the United Kingdom or Switzerland, the
@@ -145,8 +147,8 @@ export default function StarTapPrivacy() {
       </p>
       <p>
         <strong>You can change your choice at any time</strong> using the{" "}
-        <strong>PRIVACY</strong> button on the game's title screen, which reopens the
-        same consent form. On Android you can also reset your Advertising ID, or opt out of
+        <strong>PRIVACY</strong> button on the game's title screen, shown wherever the
+        consent form applies, which reopens the same form. On Android you can also reset your Advertising ID, or opt out of
         ad personalisation entirely, in your device settings under{" "}
         <em>Settings → Google → Ads</em>. On iPhone the game has no access to your
         advertising identifier.
@@ -169,7 +171,8 @@ export default function StarTapPrivacy() {
       <h2>Permissions</h2>
       <p>
         Star Tap requests internet and network-state access so ads, purchases and Play
-        Games can work. The remaining permissions in the app — including the advertising
+        Games can work, and vibration for the short tick when you pop an orb, which you
+        can switch off in SETTINGS. The remaining permissions in the app — including the advertising
         ID permission and Google's Privacy Sandbox permissions — are added automatically
         by the Google advertising and Play Services libraries. The game does not request
         access to your location, camera, microphone, contacts, photos or files. On iPhone

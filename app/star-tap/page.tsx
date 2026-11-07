@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 // Star Tap's home page, first published at the root of zablas.github.io.
 export const metadata: Metadata = {
   title: "Star Tap — Millwater Games",
-  description: "Star Tap is a one-thumb arcade game about timing, for Android.",
+  description: "Star Tap is a one-thumb arcade game about timing, for Android and iPhone.",
   alternates: { canonical: "/star-tap" },
 };
 
@@ -11,7 +11,7 @@ export default function StarTapHome() {
   return (
     <main>
       <h1>Star Tap</h1>
-      <p className="meta">An Android game by Millwater Games</p>
+      <p className="meta">A game for Android and iPhone by Millwater Games</p>
 
       <p className="lead">
         Orbs rise out of deep space and fade if you let them. Tap them in time, keep
@@ -43,8 +43,9 @@ export default function StarTapHome() {
       <h2>Where to get it</h2>
       <div className="card">
         <p>
-          Star Tap is in <strong>testing</strong> on Google Play and is not publicly
-          listed yet. If you are a tester, use the opt-in link you were sent.
+          Star Tap is free on{" "}
+          <a href="https://play.google.com/store/apps/details?id=com.millwatergames.startap">Google Play</a>.
+          The iPhone version is on its way to the App Store.
         </p>
       </div>
 
@@ -60,8 +61,9 @@ export default function StarTapHome() {
       <p>
         Star Tap has no servers of its own and no account system. Your scores,
         progress and settings are saved on your own device, and optionally to your own
-        Google account. The full detail, including the Google services the game uses,
-        is in the <a href="/star-tap/privacy">privacy policy</a>.
+        Google account on Android or your own iCloud through Game Center on iPhone. The
+        full detail, including the Google and Apple services the game uses, is in the{" "}
+        <a href="/star-tap/privacy">privacy policy</a>.
       </p>
 
       <h2>Support</h2>
