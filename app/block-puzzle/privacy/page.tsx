@@ -178,7 +178,7 @@ export default function BlockPuzzlePrivacy() {
       <h2>Reminders</h2>
       <p>
         On Android, if you turn reminders on, the game sets them on your device: at most one a day,
-        at the hour you usually play, never on a day you have already played. They are
+        at the hour you usually play, never on a day you have already played the Daily. They are
         created on your phone, and no information leaves it for them. Android asks your
         permission to show notifications first. Turn them off under{" "}
         <strong>REMINDERS</strong> in the game's Settings, or in your device's

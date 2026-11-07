@@ -14,7 +14,7 @@ export default function ThalassaPrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Thalassa</h1>
-      <p className="meta">Last updated: 3 November 2026</p>
+      <p className="meta">Last updated: 7 November 2026</p>
 
       <p className="lead">
         Thalassa is a mobile strategy game for Android and iPhone, published by Millwater Games. This
@@ -39,10 +39,10 @@ export default function ThalassaPrivacy() {
       </p>
       <p>
         When you <strong>sail together</strong> (play with other people), you sign in with your
-        Google account on Android or your Apple Account on iPhone, and the game uses Epic Online
-        Services, run by Epic Games, to find the other players and connect to them. Google or Apple,
-        Epic and the players in your game then receive the information described below. We never sell
-        it.
+        Google account on Android, or with an anonymous ID for your device on iPhone, and the game
+        uses Epic Online Services, run by Epic Games, to find the other players and connect to them.
+        Google (on Android), Epic and the players in your game then receive the information described
+        below. We never sell it.
       </p>
 
       <h2>How information is captured</h2>
@@ -65,10 +65,8 @@ export default function ThalassaPrivacy() {
         <li><strong>What Google or Apple gives the game when you sign in:</strong> on Android, with{" "}
           <em>Sign in with Google</em>, a sign-in token that identifies your Google account and includes
           your name, email address and a link to your profile picture, and with Google Play Games,
-          whether you are signed in, and this game's achievements and saved games; on iPhone, with{" "}
-          <em>Sign in with Apple</em>, a sign-in token that identifies your Apple Account (the game does
-          not ask for your email address) and, the first time you sign in, the name you choose to share,
-          and with Game Center, whether you are signed in.</li>
+          whether you are signed in, and this game's achievements and saved games; on iPhone, with
+          Game Center, whether you are signed in.</li>
         <li><strong>What is gathered automatically from your device:</strong>
           <ul>
             <li>by Google's Mobile Ads SDK (AdMob), until you buy Remove ads: your advertising ID (on
@@ -79,7 +77,7 @@ export default function ThalassaPrivacy() {
               memory;</li>
             <li>by Epic Online Services, while you play together: your IP address, to connect you; your
               device's model name, when Epic creates an anonymous ID for your device (always on iPhone,
-              where that ID renews your sign-in; on Android only when the game signs in with that ID
+              where that ID is how you sign in; on Android only when the game signs in with that ID
               instead of Google); and how its services perform and are used;</li>
             <li>by Google Play, on Android: whether Remove ads is owned on your Google account, and
               whether a newer version of the game is available;</li>
@@ -95,11 +93,10 @@ export default function ThalassaPrivacy() {
           off; your captain's name, your harbour choices and your moves let you play with other people;
           your Thalassa account ID at Epic recognises you, so you keep your seat when you come back to a
           voyage.</li>
-        <li><strong>To sign you in:</strong> the Google or Apple sign-in token is passed to Epic Online
-          Services, which checks it and signs you in to your Thalassa account; your first name is
-          suggested as your captain's name, which you can change at any time. On iPhone, your device's
-          anonymous ID is linked to the same account, so the game can renew your sign-in without asking
-          Apple again.</li>
+        <li><strong>To sign you in:</strong> on Android, the Google sign-in token is passed to Epic
+          Online Services, which checks it and signs you in to your Thalassa account, and your first
+          name is suggested as your captain's name, which you can change at any time. On iPhone, the
+          game signs you in to Epic with your device's anonymous ID.</li>
         <li><strong>To keep your progress across devices:</strong> Google Play Games keeps your
           achievements and saved games in your Google account; on iPhone, Game Center keeps your
           achievements.</li>
@@ -118,7 +115,7 @@ export default function ThalassaPrivacy() {
           captains you block stay hidden on your device.</li>
       </ul>
       <p>
-        We never sell information, and information from Google or Apple sign-in is never used for
+        We never sell information, and information from Google sign-in is never used for
         advertising.
       </p>
 
@@ -130,7 +127,7 @@ export default function ThalassaPrivacy() {
         <tbody>
           <tr>
             <td><strong>Epic Games</strong> (Epic Online Services, working for the game)</td>
-            <td>The Google or Apple sign-in token, your Thalassa account ID and captain's name, your
+            <td>The Google sign-in token (on Android), your Thalassa account ID and captain's name, your
               device's anonymous ID and model name when Epic creates that ID, your harbour's details,
               your moves and the game sent between players, how its services perform and are used, and
               your IP address.</td>
@@ -147,8 +144,8 @@ export default function ThalassaPrivacy() {
           </tr>
           <tr>
             <td><strong>Apple</strong> (on iPhone)</td>
-            <td>What each of its services in the game needs: your sign-in (Sign in with Apple), your
-              achievements and your progress toward them (Game Center), the purchase of Remove ads (the
+            <td>What each of its services in the game needs: your achievements and your progress toward
+              them (Game Center), the purchase of Remove ads (the
               App Store), and the update check, with your device's country and IP address (the App
               Store's public lookup).</td>
             <td>To provide those services.</td>
@@ -188,13 +185,13 @@ export default function ThalassaPrivacy() {
             <td>Until you use <em>Delete account</em>, which deletes it.</td>
           </tr>
           <tr>
-            <td>The Google or Apple sign-in token, and the name Apple shares</td>
+            <td>The Google sign-in token</td>
             <td>Not kept</td>
-            <td>The game holds them only while it signs you in, and never stores them.</td>
+            <td>The game holds it only while it signs you in, and never stores it.</td>
           </tr>
           <tr>
-            <td>The links between your Thalassa account at Epic and your Google account, Apple Account or
-              device's anonymous ID</td>
+            <td>The links between your Thalassa account at Epic and your Google account or your device's
+              anonymous ID</td>
             <td>Epic</td>
             <td>Until you use <em>Delete account</em>, which removes them, so nothing can sign in to that
               account again.</td>
@@ -302,27 +299,11 @@ export default function ThalassaPrivacy() {
         for your device instead; Epic receives your device's model name when it creates that ID.
       </p>
 
-      <h2>Signing in with Apple</h2>
+      <h2>Signing in on iPhone</h2>
       <p>
-        On iPhone, playing together starts with <em>Sign in with Apple</em>. The first time you sail
-        together on an iPhone, Apple asks you to confirm, then gives the game a sign-in token that
-        identifies your Apple Account. The game does not ask Apple for your email address. That first
-        time, you may also choose to share your name. The game uses them for two things only:
-      </p>
-      <ul>
-        <li>it passes the token to Epic Online Services, which checks it and signs you in to your Thalassa account there;</li>
-        <li>it suggests your first name as your captain's name, which you can change at any time.</li>
-      </ul>
-      <p>
-        Epic then links an anonymous ID it creates for your iPhone to the same Thalassa account (Epic
-        receives your device's model name when it creates that ID), so that the game can renew your
-        sign-in on its own, without asking Apple each time. The game does not store the token or your
-        name.
-      </p>
-      <p>
-        Information from Sign in with Apple is never used for advertising and never shared except with
-        Epic, as described here, to sign you in. You can stop Thalassa's use of your Apple Account at any
-        time: see <a href="#delete">Keeping and deleting your data</a>.
+        On iPhone, playing together signs you in with an anonymous ID that Epic creates for your iPhone
+        (Epic receives your device's model name when it creates that ID). No Apple sign-in is involved:
+        the game receives no Apple Account details, name or email address for this.
       </p>
 
       <h2>Epic Online Services</h2>
@@ -333,7 +314,7 @@ export default function ThalassaPrivacy() {
         <tbody>
           <tr>
             <td>Accounts</td>
-            <td>A Thalassa account ID at Epic, linked to your Google account, your Apple Account or your device's anonymous ID (on iPhone, to both your Apple Account and that ID), and your captain's name.</td>
+            <td>A Thalassa account ID at Epic, linked to your Google account or your device's anonymous ID (always that ID on iPhone), and your captain's name.</td>
             <td>To recognise you, so you keep your seat when you come back to a voyage.</td>
           </tr>
           <tr>
@@ -422,7 +403,7 @@ export default function ThalassaPrivacy() {
       </p>
       <p>
         We do not receive the information AdMob collects, and we do not use the information from Google
-        or Apple sign-in for advertising.
+        sign-in for advertising.
       </p>
 
       <h2>Purchases</h2>
@@ -469,7 +450,8 @@ export default function ThalassaPrivacy() {
         The measurements are not linked to your Google account, your advertising ID or your captain's
         name, and we see them only as statistics per device model in Google Play Console. Google's
         handling of them is governed by the{" "}
-        <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. The game has no other
+        <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Apart from these
+        measurements and Epic's own reporting described under Epic Online Services, the game has no
         analytics, attribution or crash-reporting software.
       </p>
       <p>
@@ -512,11 +494,10 @@ export default function ThalassaPrivacy() {
       </p>
       <ul>
         <li><strong>On your device:</strong> uninstall the game, or, on Android, clear its storage in your device's app settings.</li>
-        <li><strong>Your Thalassa account at Epic:</strong> <em>Delete account</em> unlinks your Google account or Apple Account from your Thalassa account ID, removes the device's anonymous ID and clears your captain's name on the device, so nothing can sign in to that account again; the next time you sail together, you start a new one. Your saved voyages stay on the device. Epic gives the game no way to delete the account itself, so its ID and your captain's name stay at Epic, linked to nothing, until we delete them, as the email that Delete account opens asks us to. In Thalassa 1.1.0 and earlier the button is called <em>Forget this account</em>: it removes your sign-in in the same way, but it opens no email and keeps your captain's name on the device.</li>
+        <li><strong>Your Thalassa account at Epic:</strong> <em>Delete account</em> unlinks your Google account or your device's anonymous ID from your Thalassa account ID, removes the device's anonymous ID and clears your captain's name on the device, so nothing can sign in to that account again; the next time you sail together, you start a new one. Your saved voyages stay on the device. Epic gives the game no way to delete the account itself, so its ID and your captain's name stay at Epic, linked to nothing, until we delete them, as the email that Delete account opens asks us to. In builds released before 1 November 2026 the button is called <em>Forget this account</em>: it removes your sign-in in the same way, but it opens no email and keeps your captain's name on the device.</li>
         <li><strong>Harbours:</strong> Epic removes a harbour's information when it closes.</li>
         <li><strong>Google:</strong> remove Thalassa's access to your Google account at{" "}
           <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>.</li>
-        <li><strong>Apple:</strong> stop Thalassa's use of your Apple Account in your iPhone's Settings: tap your name, then <em>Sign in with Apple</em>, then Thalassa, then <em>Delete</em> (<a href="https://support.apple.com/en-us/102571">Apple's instructions</a>).</li>
         <li><strong>Google Play Games:</strong> delete your achievements and saved games for Thalassa, or your whole Play Games profile, in the Google Play Games settings on your device.</li>
         <li><strong>Game Center:</strong> Apple keeps your Game Center data; Apple's Data and Privacy page, <a href="https://privacy.apple.com">privacy.apple.com</a>, says what you can do with it.</li>
         <li><strong>Advertising:</strong> on Android, reset or delete your advertising ID in Android's settings; on iPhone the game has no access to your advertising identifier.</li>
@@ -529,7 +510,7 @@ export default function ThalassaPrivacy() {
         If you are in the European Economic Area or the United Kingdom, the GDPR gives you rights over
         your personal data, including access, correction, erasure, restriction, portability and
         objection. To use them, contact us. For what Google (sign-in, Play Games, AdMob, Google Play,
-        Performance Tuner), Apple (sign-in, Game Center, the App Store) or Epic hold, you can also contact them directly. You have the right to complain to your national data protection authority.
+        Performance Tuner), Apple (Game Center, the App Store) or Epic hold, you can also contact them directly. You have the right to complain to your national data protection authority.
       </p>
 
       <h2>Changes to this policy</h2>
