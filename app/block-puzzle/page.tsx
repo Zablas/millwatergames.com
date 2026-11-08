@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 
 // Falling Block Match Puzzle's home page: the Website on its Play listing (AdMob reads its host
-// for app-ads.txt) and the application home page on its Play Games consent screen, whose privacy
-// link must be the same URL as the consent screen's privacy policy.
+// for app-ads.txt), the Support and Marketing URLs on its App Store Connect record, and the
+// application home page on its Play Games consent screen, whose privacy link must be the same
+// URL as the consent screen's privacy policy.
 export const metadata: Metadata = {
   title: "Falling Block Match Puzzle — Millwater Games",
-  description: "Falling Block Match Puzzle: three falling block puzzles in one, color floods, words and number sums, for Android.",
+  description: "Falling Block Match Puzzle: three falling block puzzles in one, color floods, words and number sums, for Android and iPhone.",
   alternates: { canonical: "/block-puzzle" },
 };
 
@@ -50,15 +51,15 @@ export default function BlockPuzzleHome() {
         Levels all the way to 100, with something new every few levels: tile themes, skies, drop
         trails, clear bursts, badge colors and titles, all yours to pick. Books fill as you play, with
         every word you have spelled, every answer from 1 to 100 and the moments you have pulled off.
-        Medals for each mode, achievements and leaderboards with Google Play Games, and your progress
-        saved to the cloud.
+        Medals for each mode, achievements and leaderboards with Google Play Games on Android or Game
+        Center on iPhone, and your progress saved to the cloud.
       </p>
 
       <h2>Where to get it</h2>
       <div className="card">
         <p>
-          Falling Block Match Puzzle is coming to Google Play for Android phones. It is not listed
-          yet.
+          Falling Block Match Puzzle is in review on Google Play for Android phones, and the iPhone
+          version is on its way to the App Store. It is not listed on either store yet.
         </p>
       </div>
 
@@ -72,8 +73,9 @@ export default function BlockPuzzleHome() {
       <h2>Privacy</h2>
       <p>
         The game has no servers of its own and no account system. Your progress and settings are
-        saved on your own device, and optionally to your own Google account. The full detail,
-        including the Google services the game uses, is in the{" "}
+        saved on your own device, and optionally to your own Google account on Android or your own
+        iCloud through Game Center on iPhone. The full detail, including the Google and Apple
+        services the game uses, is in the{" "}
         <a href="/block-puzzle/privacy">privacy policy</a>.
       </p>
 
