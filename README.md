@@ -13,6 +13,7 @@ free plan). Every push to `main` deploys.
 | Star Tap's privacy policy | https://millwatergames.com/star-tap/privacy | `app/star-tap/privacy/page.tsx` |
 | Climb Bros | https://millwatergames.com/climb-bros | `app/climb-bros/page.tsx` |
 | Climb Bros' privacy policy | https://millwatergames.com/climb-bros/privacy | `app/climb-bros/privacy/page.tsx` |
+| Climb Bros' terms for playing online | https://millwatergames.com/climb-bros/terms | `app/climb-bros/terms/page.tsx` (the game links to it) |
 | Climb Bros' invite links | https://millwatergames.com/climb-bros/join#CODE | `app/climb-bros/join/page.tsx` |
 | Falling Block Match Puzzle | https://millwatergames.com/block-puzzle | `app/block-puzzle/page.tsx` |
 | Falling Block Match Puzzle's privacy policy | https://millwatergames.com/block-puzzle/privacy | `app/block-puzzle/privacy/page.tsx` |

@@ -37,8 +37,9 @@ export default function ClimbBrosHome() {
       <h2>Alone or together</h2>
       <p>
         Climb alone, or with up to three friends: a friend who goes down can be helped up, and a ghost
-        can float back to life. Play together on the same Wi-Fi, or online with friends by a code.
-        Playing online uses Epic Online Services, and Sign in with Google if you choose it.
+        can float back to life. Play together on the same Wi-Fi, online with friends by a code, or with
+        anyone through Quick join. Playing online uses Epic Online Services, and Sign in with Google if
+        you choose it, under the <a href="/climb-bros/terms">terms for playing online</a>.
       </p>
 
       <h2>Platforms</h2>
@@ -56,6 +57,7 @@ export default function ClimbBrosHome() {
       <footer>
         © 2026 <a href="/">Millwater Games</a> ·{" "}
         <a href="/climb-bros/privacy">Privacy policy</a> ·{" "}
+        <a href="/climb-bros/terms">Terms for playing online</a> ·{" "}
         <a href="mailto:millwatergames@gmail.com">millwatergames@gmail.com</a>
       </footer>
     </main>

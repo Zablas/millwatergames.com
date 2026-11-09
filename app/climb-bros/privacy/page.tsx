@@ -13,7 +13,7 @@ export default function ClimbBrosPrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Climb Bros</h1>
-      <p className="meta">Last updated: 7 November 2026</p>
+      <p className="meta">Last updated: 10 November 2026</p>
 
       <p className="lead">
         Climb Bros is a climbing game for one to four players, published by Millwater Games. This
@@ -41,6 +41,12 @@ export default function ClimbBrosPrivacy() {
         you earn, your climbs of today's tower and your saved progress go to it, under your Play Games
         profile, so your progress can follow you to another phone.
       </p>
+      <p>
+        With <strong>Quick join</strong> you can also play with people you don't know: they see your
+        player name and hear you while you hold TALK, as friends do. You can mute, block and report
+        other players. A report goes to us through Epic, and we may keep an account that breaks the{" "}
+        <a href="/climb-bros/terms">terms for playing online</a> out of the games Quick join finds.
+      </p>
 
       <h2>How information is captured</h2>
       <p>
@@ -50,15 +56,18 @@ export default function ClimbBrosPrivacy() {
       <ul>
         <li><strong>What you type or choose:</strong> the player name you type to play with others; the pings and quick-chat phrases
           you send; when you host, the tower you climb (today's tower or a new one, and its Ascension)
-          and the code that lets friends join; and anything you write to us by email.</li>
+          and the code that lets friends join; the players you block and the players you report, with
+          the reason you choose; and anything you write to us by email.</li>
         <li><strong>What you say:</strong> in an online game, while you hold TALK, your voice, picked up
           by your device's microphone, which the game asks your permission for the first time you hold
           TALK.</li>
         <li><strong>What the game records as you play:</strong> your saved run, your settings, the tips
           you have seen, your best climb of today's tower, the Ascensions you have unlocked, the
           achievements you have earned and how far you are towards the others, the code of the last
-          online game you were in and when you were last in it, and a random number that this
-          installation of the game keeps.</li>
+          online game you were in and when you were last in it, that you have agreed to the terms for
+          playing online, and a random number that this installation of the game keeps.</li>
+        <li><strong>What other players report:</strong> other players can report you, choosing a reason,
+          in the same way.</li>
         <li><strong>What Google gives the game when you sign in:</strong> with <em>Sign in with Google</em>,
           a sign-in token that identifies your Google account and includes your name, email address and a
           link to your profile picture.</li>
@@ -89,6 +98,12 @@ export default function ClimbBrosPrivacy() {
           unlocked, your best climbs of today's tower, the tips you have seen, your player name and
           your outfit are saved with your Play Games account, so they follow you to another phone. A
           run in progress stays on its device.</li>
+        <li><strong>To keep online play civil:</strong> the players you block are kept on your device, so
+          that you don't hear them, see them by their character instead of their name, and are not put
+          in their games by Quick join, and so that your games turn them away. We read the reports
+          players send, and may place a restriction on an account that breaks the terms for playing
+          online, which keeps it out of the games Quick join finds. When you use Quick join, the game
+          asks Epic whether your account has such a restriction.</li>
         <li><strong>To answer you</strong> when you email us.</li>
       </ul>
       <p>
@@ -105,9 +120,11 @@ export default function ClimbBrosPrivacy() {
             <td><strong>Epic Games</strong> (Epic Online Services, working for the game)</td>
             <td>When you play online: the Google sign-in token if you sign in with Google, your Climb Bros
               account ID and player name, your game's details, the game sent between players, your voice
-              while you hold TALK, and your IP address.</td>
+              while you hold TALK, your IP address, and the reports you send (your account ID, the
+              reported player's, the reason, and the game's code and version).</td>
             <td>To sign you in, to gather the players of a game, to connect your devices, directly or
-              through Epic's relay servers, and to carry the players' voices to each other.</td>
+              through Epic's relay servers, to carry the players' voices to each other, and to keep the
+              reports and any restriction on an account for us.</td>
           </tr>
           <tr>
             <td><strong>Google</strong></td>
@@ -117,7 +134,7 @@ export default function ClimbBrosPrivacy() {
               leaderboard.</td>
           </tr>
           <tr>
-            <td><strong>The other players in your game</strong></td>
+            <td><strong>The other players in your game</strong> (with Quick join, people you may not know)</td>
             <td>Your player name, the number that identifies you to their games, everything you do in the
               game, your voice while you hold TALK, the run itself when you host it, and, when your devices
               connect directly, your IP address.</td>
@@ -159,6 +176,19 @@ export default function ClimbBrosPrivacy() {
             <td>Not kept</td>
             <td>It goes live to the other players while you hold TALK; the game, Epic and we record
               nothing.</td>
+          </tr>
+          <tr>
+            <td>The players you block (their Climb Bros account IDs and the names they had), and that
+              you have agreed to the terms for playing online</td>
+            <td>Your device</td>
+            <td>Until you unblock them (the game's settings unblock everyone), clear the game's storage
+              or uninstall it.</td>
+          </tr>
+          <tr>
+            <td>Reports sent about players, and any restriction we place on an account</td>
+            <td>Epic, for us</td>
+            <td>As long as we need them to keep online play civil, at the most until the account is
+              deleted. A restriction lasts until it ends or we lift it.</td>
           </tr>
           <tr>
             <td>The code of the last online game you were in, and when you were last in it</td>
@@ -212,7 +242,8 @@ export default function ClimbBrosPrivacy() {
         and the player name and number of each player in it, so that any of you can host it again.
         Your settings: graphics, controls and the layout of the buttons, look speed, aim help,
         haptics, less flicker, colour-blind-friendly colours, first-time tips and voice chat. Also the
-        player name you typed, the code of the last online game you were in (to get back into it within
+        players you block, that you have agreed to the terms for playing online, the player name you
+        typed, the code of the last online game you were in (to get back into it within
         an hour if your game closes), the tips you have seen, your best climb of today's tower, the
         Ascensions you have unlocked, the achievements you have earned and how far you are towards the
         others (enemies beaten, metres climbed, coins collected and the like), and a random number that
@@ -257,10 +288,12 @@ export default function ClimbBrosPrivacy() {
           </tr>
           <tr>
             <td>Lobbies</td>
-            <td>The game's code, its players and their player names, who hosts, the game's version, and
-              the tower being climbed (today's tower or a new one, and its Ascension). Epic keeps these
-              while the game is open to join.</td>
-            <td>To gather the players of a game, and to let friends join by its code.</td>
+            <td>The game's code, its players and their player names, who hosts, the game's version, the
+              tower being climbed (today's tower or a new one, and its Ascension), and, for a game
+              started with Quick join, that it is public and whether its climb has begun. Epic keeps
+              these while the game is open to join.</td>
+            <td>To gather the players of a game, to let friends join by its code, and to let Quick join
+              find public games.</td>
           </tr>
           <tr>
             <td>Connections</td>
@@ -274,6 +307,18 @@ export default function ClimbBrosPrivacy() {
             <td>Your voice while you hold TALK in an online game, and the other players' voices to you.</td>
             <td>So that the players in a game can talk. Epic carries it live through its voice servers; it
               is not recorded.</td>
+          </tr>
+          <tr>
+            <td>Player reports</td>
+            <td>A report you send: your account ID, the reported player's, the reason you chose, and the
+              game's code and version.</td>
+            <td>So that we can read it and act on it.</td>
+          </tr>
+          <tr>
+            <td>Sanctions</td>
+            <td>A restriction we place on an account that broke the terms for playing online.</td>
+            <td>To keep that account out of the games Quick join finds; the game asks about yours when
+              you use Quick join.</td>
           </tr>
         </tbody>
       </table>
@@ -308,7 +353,8 @@ export default function ClimbBrosPrivacy() {
         to peer.
       </p>
       <p>
-        An online game is found by its code alone.
+        A game hosted with a code is found by its code alone. A game started with Quick join is also
+        found by other players' Quick join, with how many players it has, until its climb begins.
       </p>
 
       <h2>Permissions</h2>
@@ -340,6 +386,9 @@ export default function ClimbBrosPrivacy() {
         <li><strong>On your device:</strong> uninstall the game, or clear its storage in your device's app settings.</li>
         <li><strong>Your Climb Bros account at Epic:</strong> use <em>Forget this account</em> in the game's online menu. It unlinks your Google account from your Climb Bros account ID and removes the device's anonymous ID. Or email us and we will have it deleted.</li>
         <li><strong>Online games:</strong> Epic removes a game's details when it closes.</li>
+        <li><strong>The players you block:</strong> the game's settings unblock everyone.</li>
+        <li><strong>Reports and restrictions:</strong> deleted with your account when we delete it at
+          your request.</li>
         <li><strong>Google Play Games:</strong> your achievements, times and saved progress are part of
           your Play Games profile; delete it in the Play Games app's settings.</li>
         <li><strong>Google:</strong> remove Climb Bros' access to your Google account at{" "}
