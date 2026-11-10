@@ -24,7 +24,12 @@ export default function CapyGrovePrivacy() {
         CapyGrove has no servers of its own and no account system. We do not collect,
         receive or store your personal information. Your progress, photos and settings
         are saved on your own device. On Android you can choose to connect Google Play
-        Games, which is described below.
+        Games.
+      </p>
+      <p>
+        The game does include outside services: advertising, in-app purchases, and Play
+        Games on Android or Game Center on iPhone. Those services collect data under
+        their own privacy policies, as described below.
       </p>
 
       <h2>What the game stores on your device</h2>
@@ -46,16 +51,32 @@ export default function CapyGrovePrivacy() {
         cannot read your existing photos. Photos are never uploaded by the game.
       </p>
 
-      <h2>Google Play Games on Android</h2>
+      <h2>Google services used in the game on Android</h2>
       <table>
         <thead>
           <tr>
+            <th>Service</th>
             <th>What it handles</th>
             <th>Why</th>
           </tr>
         </thead>
         <tbody>
           <tr>
+            <td><strong>Google AdMob</strong></td>
+            <td>Advertising ID, device and app information, IP address, and how you
+              interact with ads.</td>
+            <td>To show ads, measure them, and prevent fraud. This is the only part of
+              the game that involves advertising data.</td>
+          </tr>
+          <tr>
+            <td><strong>Google Play Billing</strong></td>
+            <td>Your purchases. Payment details are handled entirely by Google; the game
+              never sees a card number. The game keeps only a record of what you own and a
+              one-way fingerprint of the purchase, so it can be restored.</td>
+            <td>To sell and restore the optional Premium purchase.</td>
+          </tr>
+          <tr>
+            <td><strong>Google Play Games Services</strong></td>
             <td>Your Play Games player identifier, earned achievements, and a copy of your
               game progress kept in your Play Games saved games.</td>
             <td>To keep your progress across devices and record achievements. This happens
@@ -65,29 +86,96 @@ export default function CapyGrovePrivacy() {
       </table>
       <p>
         Photos, device preferences and purchase records are not included in cloud saves.
-        Play Games is operated by Google under the{" "}
-        <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+        All three services are operated by Google, and their handling of the data is
+        governed by the{" "}
+        <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. For
+        advertising specifically, see{" "}
+        <a href="https://support.google.com/admob/answer/6128543">how Google uses data from apps that use its services</a>.
       </p>
 
-      <h2>Advertising and purchases</h2>
+      <h2>Services used in the game on iPhone</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Service</th>
+            <th>What it handles</th>
+            <th>Why</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Google AdMob</strong> (Google)</td>
+            <td>Device and app information, IP address, and how you interact with ads. The
+              game never asks for permission to track you, so the ads have no access to
+              your advertising identifier.</td>
+            <td>To show ads, measure them, and prevent fraud. This is the only part of the
+              game that involves advertising data.</td>
+          </tr>
+          <tr>
+            <td><strong>App Store purchases</strong> (Apple)</td>
+            <td>Your purchases. Payment details are handled entirely by Apple; the game
+              never sees them. The game keeps only a record of what you own and a reference
+              to the purchase, so it can be restored.</td>
+            <td>To sell and restore the optional Premium purchase.</td>
+          </tr>
+          <tr>
+            <td><strong>Game Center</strong> (Apple)</td>
+            <td>Your Game Center player identifier and earned achievements.</td>
+            <td>To record achievements. This depends on you being signed in to Game
+              Center.</td>
+          </tr>
+        </tbody>
+      </table>
       <p>
-        This version of the game shows no ads and sells nothing. If that changes, this
-        policy will be updated first.
+        Google's handling of the data is governed by the{" "}
+        <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, and Apple's by the{" "}
+        <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.
+      </p>
+
+      <h2>Advertising and your consent</h2>
+      <p>
+        The game shows two kinds of ad: an occasional full-screen ad after you finish a
+        level, and optional videos you choose to watch for extra coins, lives or hints.
+        There are no banner ads and no ads during a puzzle.
+      </p>
+      <p>
+        If you are in the European Economic Area, the United Kingdom or Switzerland, the
+        game asks for your consent before any personalised advertising, using Google's
+        consent form. If you do not give consent, personalised ads are not requested.
+      </p>
+      <p>
+        <strong>You can change your choice at any time</strong> using the{" "}
+        <strong>Privacy options</strong> button in the game's Settings, shown wherever the
+        consent form applies, which reopens the same form. On Android you can also reset your Advertising ID, or opt out of
+        ad personalisation entirely, in your device settings under{" "}
+        <em>Settings &rarr; Google &rarr; Ads</em>. On iPhone the game has no access to your
+        advertising identifier.
+      </p>
+
+      <h2>In-app purchases</h2>
+      <p>
+        CapyGrove offers one optional purchase, Premium, bought once. It removes all ads
+        and gives unlimited lives and hints. Coins cannot be bought with money; every coin
+        is earned in play. Purchases are made through Google Play on Android and the App
+        Store on iPhone, as described above.
       </p>
 
       <h2>Analytics</h2>
       <p>
         The game contains no third-party analytics, advertising-attribution or crash
-        reporting software.
+        reporting software beyond the services listed above.
       </p>
 
       <h2>Permissions</h2>
       <p>
-        On Android the game asks for vibration, which you can switch off in Settings. Any
-        network permission in the Android app comes from Google's Play Games library. The
-        game does not request access to your location, camera, microphone or contacts. On
-        iPhone the only permission it can ask for is adding a photo to Photos, when you
-        choose to save one.
+        On Android, CapyGrove requests internet and network-state access so ads,
+        purchases and Play Games can work, and vibration, which you can switch off in
+        Settings. The remaining permissions in the app, including the advertising ID
+        permission and Google's Privacy Sandbox permissions, are added automatically by
+        the Google advertising and Play Services libraries. The game does not request
+        access to your location, camera, microphone or contacts. On iPhone the only
+        permission it can ask for is adding a photo to Photos, when you choose to save
+        one.
       </p>
 
       <h2>Children</h2>
@@ -102,10 +190,14 @@ export default function CapyGrovePrivacy() {
         <li><strong>On your device:</strong> uninstall the game, or clear its storage in your device's app settings. Photos you saved to your gallery stay there until you delete them.</li>
         <li><strong>In Google Play Games:</strong> delete the game's saved data and remove it from your Play Games profile at{" "}
           <a href="https://play.google.com/games">play.google.com/games</a>.</li>
+        <li><strong>Advertising:</strong> reset or delete your Advertising ID in your device settings, and manage what Google holds at{" "}
+          <a href="https://myadcenter.google.com">myadcenter.google.com</a>.</li>
+        <li><strong>In Game Center:</strong> manage your Game Center profile under <em>Settings &rarr; Game Center</em> on your iPhone.</li>
+        <li><strong>Purchases:</strong> your purchase history is held by Google Play and managed through your Google account, or on iPhone by the App Store and your Apple Account.</li>
       </ul>
       <p>
         Because we hold no data about you ourselves, requests to access, correct, export
-        or delete personal data are handled through Google, using the link above. If you
+        or delete personal data are handled through Google or Apple, using the links above. If you
         are unsure where to start, contact us and we will point you to the right place.
       </p>
 
@@ -115,7 +207,7 @@ export default function CapyGrovePrivacy() {
         you rights over your personal data, including access, correction, erasure,
         restriction, portability and objection, and the right to withdraw consent at any
         time. As we hold no personal data ourselves, these rights are exercised against
-        Google as the controller of the data described above. You also have the right to
+        Google or Apple as the controller of the data described above. You also have the right to
         complain to your national data protection authority.
       </p>
 
