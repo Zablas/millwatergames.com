@@ -17,6 +17,7 @@ free plan). Every push to `main` deploys.
 | Climb Bros' invite links | https://millwatergames.com/climb-bros/join#CODE | `app/climb-bros/join/page.tsx` |
 | Falling Block Match Puzzle | https://millwatergames.com/block-puzzle | `app/block-puzzle/page.tsx` |
 | Falling Block Match Puzzle's privacy policy | https://millwatergames.com/block-puzzle/privacy | `app/block-puzzle/privacy/page.tsx` |
+| CapyGrove's privacy policy | https://millwatergames.com/capygrove/privacy | `app/capygrove/privacy/page.tsx` |
 | AdMob's app-ads.txt | https://millwatergames.com/app-ads.txt | `public/app-ads.txt` |
 
 The pages were first published on `zablas.github.io` (repo `Zablas/Zablas.github.io`).
@@ -51,6 +52,7 @@ Changing an address means changing it in every place below as well.
 | `/block-puzzle` | Play Console → Falling Block Match Puzzle → Store settings → Website (AdMob reads its host for app-ads.txt); Google Cloud → Branding → Application home page (its Play Games project); both once they are there |
 | `/block-puzzle/privacy` | Play Console → Falling Block Match Puzzle → App content → Privacy policy; AdMob → Privacy & messaging → its privacy policy URL; Google Cloud → Branding → Application privacy policy link (its Play Games project); all once they are there |
 | `/block-puzzle/privacy#delete` | Play Console → Falling Block Match Puzzle → App content → Data safety → Delete data URL |
+| `/capygrove/privacy` | CapyGrove's in-game Settings → Privacy policy (a change needs a new game build); Play Console → CapyGrove → App content → Privacy policy, AdMob → Privacy & messaging → its privacy policy URL, App Store Connect → CapyGrove → App Information → Privacy Policy URL, and Google Cloud → Branding → Application privacy policy link (its Play Games project); all once they are there |
 | `/app-ads.txt` | found by AdMob at the root of the Website host of both apps; one line for the one AdMob account |
 
 Google requires a game's home page to link to the same privacy policy URL as its consent screen,
