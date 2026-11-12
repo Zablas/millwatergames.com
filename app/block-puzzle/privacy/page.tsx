@@ -15,7 +15,7 @@ export default function BlockPuzzlePrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Falling Block Match Puzzle</h1>
-      <p className="meta">Last updated: 7 November 2026</p>
+      <p className="meta">Last updated: 12 November 2026</p>
 
       <p className="lead">
         Falling Block Match Puzzle is a mobile game published by Millwater Games. This
@@ -39,11 +39,13 @@ export default function BlockPuzzlePrivacy() {
       <h2>What the game stores on your device</h2>
       <p>
         A single save file on your device holds your game progress: best scores and
-        records, your level, your Daily streak and calendar, missions, awards, the words
-        and answers collected in the game's books, Voyage stars, the looks you have
-        picked, and your settings for sound, music, vibration, controls and reminders.
-        It also records whether you own Remove Ads, and the hours of the day you started
-        your last few games, which the reminders use to choose their time.
+        records, your level, your Daily streak and calendar, missions and weekly goals,
+        awards and the ones you pin to your profile, the words and answers collected in
+        the game's books, Voyage stars, which tutorials you have played, the looks you
+        have picked, and your settings for sound, music, vibration, colours, controls
+        and reminders. It also records whether you own Remove Ads, whether and when the
+        game has asked you to rate it, and the hours of the day you started your last
+        few games, which the reminders use to choose their time.
       </p>
       <p>
         It contains no name, no email address, no phone number, no location, no
@@ -191,6 +193,23 @@ export default function BlockPuzzlePrivacy() {
         sheet with a short text: the mode, the day, your score, your streak and the
         game's Google Play address. You choose where it goes; the game sends nothing
         by itself. The iPhone game has no share button.
+      </p>
+
+      <h2>Rating and feedback</h2>
+      <p>
+        On Android, <strong>RATE THE GAME</strong> in the game's Settings, and a short
+        card the game shows now and then after a good game (three times at most), open
+        the game's page on Google Play. The game sends nothing; a rating or review you
+        leave there is handled by Google Play under Google's policies, and the game never
+        learns whether you left one.
+      </p>
+      <p>
+        <strong>SEND FEEDBACK</strong> in the game's Settings, and on a Voyage stage you
+        have played, opens an email to us in your own mail app. It already holds the
+        game's version, your phone's system version and its model, so we can tell what
+        you were playing on; you see all of it and choose whether to send it. If you do,
+        we receive your email address and what you wrote, and use them only to read your
+        feedback and reply.
       </p>
 
       <h2>Analytics</h2>
