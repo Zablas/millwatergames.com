@@ -48,6 +48,15 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="card game">
+        <img src="/priced-out/icon-512.png" alt="Priced Out's icon: a green brick house with a red up arrow beside its roof" />
+        <div>
+          <h3><a href="/priced-out">Priced Out</a></h3>
+          <p>An idle game about never affording a house.</p>
+          <p className="muted">Coming to Google Play · <a href="/priced-out/privacy">Privacy policy</a></p>
+        </div>
+      </div>
+
       <h2>Contact</h2>
       <p>
         Bug reports, questions and complaints about any of our games:{" "}
