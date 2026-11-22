@@ -13,7 +13,7 @@ export default function StarTapPrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Star Tap</h1>
-      <p className="meta">Last updated: 7 November 2026</p>
+      <p className="meta">Last updated: 22 November 2026</p>
 
       <p className="lead">
         Star Tap is a mobile game published by Millwater Games. This policy explains
@@ -103,9 +103,8 @@ export default function StarTapPrivacy() {
         <tbody>
           <tr>
             <td><strong>Google AdMob</strong> (Google)</td>
-            <td>Device and app information, IP address, and how you interact with ads. The game
-              never asks for permission to track you, so the ads have no access to your
-              advertising identifier.</td>
+            <td>Device and app information, IP address, and how you interact with ads, and your
+              advertising identifier only if you allow the game to track you (see below).</td>
             <td>To show ads, measure them, and prevent fraud. This is the only part of the game
               that involves advertising data.</td>
           </tr>
@@ -150,8 +149,10 @@ export default function StarTapPrivacy() {
         <strong>PRIVACY</strong> button on the game's title screen, shown wherever the
         consent form applies, which reopens the same form. On Android you can also reset your Advertising ID, or opt out of
         ad personalisation entirely, in your device settings under{" "}
-        <em>Settings → Google → Ads</em>. On iPhone the game has no access to your
-        advertising identifier.
+        <em>Settings → Google → Ads</em>.
+      </p>
+      <p>
+        On iPhone the game asks whether it may track you (Apple's App Tracking Transparency), after Google's consent form where that applies. If you allow it, Google's Mobile Ads SDK also receives your device's advertising identifier and may use it to personalise ads; if you ask the game not to track, it does not receive it, and the ads are shown without it. The game is the same either way. You can change your answer at any time in your iPhone's <em>Settings → Privacy &amp; Security → Tracking</em>.
       </p>
 
       <h2>Analytics</h2>
@@ -176,7 +177,7 @@ export default function StarTapPrivacy() {
         ID permission and Google's Privacy Sandbox permissions — are added automatically
         by the Google advertising and Play Services libraries. The game does not request
         access to your location, camera, microphone, contacts, photos or files. On iPhone
-        the game asks for no permissions at all.
+        the only permission the game asks for is whether it may track you for ads.
       </p>
 
       <h2>Children</h2>
@@ -193,7 +194,7 @@ export default function StarTapPrivacy() {
         <li><strong>In Google Play Games:</strong> delete the game's saved data and remove it from your Play Games profile at{" "}
           <a href="https://play.google.com/games">play.google.com/games</a>.</li>
         <li><strong>Advertising:</strong> reset or delete your Advertising ID in your device settings, and manage what Google holds at{" "}
-          <a href="https://myadcenter.google.com">myadcenter.google.com</a>.</li>
+          <a href="https://myadcenter.google.com">myadcenter.google.com</a>. On iPhone, turn tracking off for Star Tap in <em>Settings → Privacy &amp; Security → Tracking</em>.</li>
         <li><strong>In Game Center and iCloud:</strong> delete the game's saved game from your iCloud storage in your iPhone's Settings, and manage your Game Center profile under <em>Settings → Game Center</em>.</li>
         <li><strong>Purchases:</strong> your purchase history is held by Google Play and managed through your Google account, or on iPhone by the App Store and your Apple Account.</li>
       </ul>

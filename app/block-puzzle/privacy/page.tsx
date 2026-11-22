@@ -15,7 +15,7 @@ export default function BlockPuzzlePrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Falling Block Match Puzzle</h1>
-      <p className="meta">Last updated: 12 November 2026</p>
+      <p className="meta">Last updated: 22 November 2026</p>
 
       <p className="lead">
         Falling Block Match Puzzle is a mobile game published by Millwater Games. This
@@ -118,9 +118,8 @@ export default function BlockPuzzlePrivacy() {
         <tbody>
           <tr>
             <td><strong>Google AdMob</strong> (Google)</td>
-            <td>Device and app information, IP address, and how you interact with ads. The game
-              never asks for permission to track you, so the ads have no access to your
-              advertising identifier.</td>
+            <td>Device and app information, IP address, and how you interact with ads, and your
+              advertising identifier only if you allow the game to track you (see below).</td>
             <td>To show ads, measure them, and prevent fraud. This is the only part of the game
               that involves advertising data.</td>
           </tr>
@@ -168,8 +167,10 @@ export default function BlockPuzzlePrivacy() {
         <strong>PRIVACY</strong> button in the game's Settings, which reopens the
         same consent form. On Android you can also reset your Advertising ID, or opt out of
         ad personalisation entirely, in your device settings under{" "}
-        <em>Settings → Google → Ads</em>. On iPhone the game has no access to your
-        advertising identifier.
+        <em>Settings → Google → Ads</em>.
+      </p>
+      <p>
+        On iPhone the game asks whether it may track you (Apple's App Tracking Transparency), after Google's consent form where that applies. If you allow it, Google's Mobile Ads SDK also receives your device's advertising identifier and may use it to personalise ads; if you ask the game not to track, it does not receive it, and the ads are shown without it. The game is the same either way. You can change your answer at any time in your iPhone's <em>Settings → Privacy &amp; Security → Tracking</em>.
       </p>
       <p>
         On iPhone, <strong>REPORT AN AD</strong> in the game's Settings opens an email to us in
@@ -228,8 +229,8 @@ export default function BlockPuzzlePrivacy() {
         the app — including the advertising ID permission and Google's Privacy
         Sandbox permissions — are added automatically by the Google advertising, billing
         and Play Services libraries. The game does not request access to your location,
-        camera, microphone, contacts, photos or files. On iPhone the game asks for no
-        permissions at all.
+        camera, microphone, contacts, photos or files. On iPhone the only permission the game asks
+        for is whether it may track you for ads.
       </p>
 
       <h2>Children</h2>

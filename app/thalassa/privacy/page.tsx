@@ -14,7 +14,7 @@ export default function ThalassaPrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Thalassa</h1>
-      <p className="meta">Last updated: 7 November 2026</p>
+      <p className="meta">Last updated: 22 November 2026</p>
 
       <p className="lead">
         Thalassa is a mobile strategy game for Android and iPhone, published by Millwater Games. This
@@ -30,7 +30,8 @@ export default function ThalassaPrivacy() {
         account or advertising identifier. It shows ads, served by Google AdMob, until
         you buy <strong>Remove ads</strong> on Google Play or the App Store. Where the law asks for it
         (the European Economic Area, the United Kingdom and Switzerland), Google asks your consent
-        before ads are personalised. On iPhone the game never asks to track you.
+        before ads are personalised. On iPhone the game asks whether it may track you, and is the same
+        whichever you answer.
       </p>
       <p>
         If you use <strong>Google Play Games</strong> on Android, your achievements and your saved games
@@ -70,7 +71,7 @@ export default function ThalassaPrivacy() {
         <li><strong>What is gathered automatically from your device:</strong>
           <ul>
             <li>by Google's Mobile Ads SDK (AdMob), until you buy Remove ads: your advertising ID (on
-              Android only), your IP address, information about your device and the app, and how you
+              Android; on iPhone only if you allow tracking), your IP address, information about your device and the app, and how you
               interact with the ads;</li>
             <li>by Google's Android Performance Tuner, on Android: how long the game takes to start, to
               load a voyage and to draw its frames, with your device's model, Android version and
@@ -394,14 +395,13 @@ export default function ThalassaPrivacy() {
         Until you buy Remove ads, the game shows a full-screen ad as you end every fifth turn (never
         during the first voyage that teaches the game) and a banner at the top of the main menu. The ads
         come from <strong>Google AdMob</strong>. To show them, Google's Mobile Ads SDK in the game sends
-        Google your device's <strong>advertising ID</strong> (on Android), your IP address (from which Google estimates
+        Google your device's <strong>advertising ID</strong> (on Android; on iPhone only if you allow it), your IP address (from which Google estimates
         an approximate location), information about your device and the app, and how you interact with
         the ads. Google uses this to serve, measure and protect ads, as described in{" "}
         <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.
       </p>
       <p>
-        On iPhone the game never asks to track you (Apple's App Tracking Transparency), so Google's SDK
-        does not receive your device's advertising identifier, and the ads are shown without it.
+        On iPhone the game asks whether it may track you (Apple's App Tracking Transparency), after Google's consent form where that applies. If you allow it, Google's Mobile Ads SDK also receives your device's advertising identifier and may use it to personalise ads; if you ask the game not to track, it does not receive it, and the ads are shown without it. The game is the same either way. You can change your answer at any time in your iPhone's <em>Settings → Privacy &amp; Security → Tracking</em>.
       </p>
       <p>
         In the European Economic Area, the United Kingdom and Switzerland, Google's consent form asks you
@@ -476,8 +476,8 @@ export default function ThalassaPrivacy() {
       </p>
       <p>
         On iPhone, the game may ask for access to your local network, which your iPhone asks you about
-        the first time: it lets devices playing together on the same network connect directly. It does
-        not ask to track you, and it does not request access to your location, camera, microphone,
+        the first time: it lets devices playing together on the same network connect directly. It asks
+        whether it may track you for ads (see Advertising), and it does not request access to your location, camera, microphone,
         contacts or photos.
       </p>
 
@@ -508,7 +508,7 @@ export default function ThalassaPrivacy() {
           <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>.</li>
         <li><strong>Google Play Games:</strong> delete your achievements and saved games for Thalassa, or your whole Play Games profile, in the Google Play Games settings on your device.</li>
         <li><strong>Game Center:</strong> Apple keeps your Game Center data; Apple's Data and Privacy page, <a href="https://privacy.apple.com">privacy.apple.com</a>, says what you can do with it.</li>
-        <li><strong>Advertising:</strong> on Android, reset or delete your advertising ID in Android's settings; on iPhone the game has no access to your advertising identifier.</li>
+        <li><strong>Advertising:</strong> on Android, reset or delete your advertising ID in Android's settings; on iPhone, turn tracking off for Thalassa in <em>Settings → Privacy &amp; Security → Tracking</em>.</li>
         <li><strong>Performance measurements (Android):</strong> Google keeps them as statistics per device model; they are not linked to you, so there is nothing tied to you to delete. Measurements not yet sent are removed when you uninstall the game or clear its storage.</li>
         <li><strong>Other players' devices:</strong> a saved game you played together stays on the devices of the others who played it, with your captain's name and Epic account ID in it, as part of their own game.</li>
       </ul>
