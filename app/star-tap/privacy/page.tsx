@@ -13,7 +13,7 @@ export default function StarTapPrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Star Tap</h1>
-      <p className="meta">Last updated: 22 November 2026</p>
+      <p className="meta">Last updated: 23 November 2026</p>
 
       <p className="lead">
         Star Tap is a mobile game published by Millwater Games. This policy explains
@@ -160,6 +160,29 @@ export default function StarTapPrivacy() {
         On iPhone the game asks whether it may track you (Apple's App Tracking Transparency), after Google's consent form where that applies. If you allow it, Google's Mobile Ads SDK also receives your device's advertising identifier and may use it to personalise ads; if you ask the game not to track, it does not receive it, and the ads are shown without it. The game is the same either way. You can change your answer at any time in your iPhone's <em>Settings → Privacy &amp; Security → Tracking</em>.
       </p>
 
+      <h2>Your age range</h2>
+      <p>
+        Where a law requires app stores to share an age range with apps, such as in Texas,
+        the iPhone version of the game asks Apple for your age range through Apple's
+        Declared Age Range feature. Apple decides when this applies, and may ask you, or a
+        parent or guardian, whether to share it. The game receives only a range, such as
+        &quot;13 to 15&quot; or &quot;18 or over&quot;, never your date of birth.
+      </p>
+      <p>
+        The game uses the range for one thing: choosing age-appropriate ad settings before
+        any ad is requested. If you are under 13, or your age is not shared where the law
+        applies, ads are requested as directed to a child, with no personalised advertising
+        and only content suitable for all ages. If you are 13 to 17, ads are requested as
+        for a user under the age of consent, which asks Google not to personalise them.
+        Google&apos;s Mobile Ads SDK receives only these settings, not your age range.
+      </p>
+      <p>
+        The game does not store your age range, does not send it to us or to anyone else,
+        and asks Apple again each time it starts. Where no such law applies, Apple shares
+        nothing and the game uses its usual ad settings. The Android version does not ask
+        for an age range yet.
+      </p>
+
       <h2>Analytics</h2>
       <p>
         On Android, the game reports anonymous, aggregate gameplay counters to Google Play Games —
@@ -190,7 +213,8 @@ export default function StarTapPrivacy() {
         Star Tap is a general-audience game. It is not directed at children under 13, and
         we do not knowingly collect personal information from children under 13. If you
         believe a child has provided information through this app, please contact us and
-        we will help you address it.
+        we will help you address it. Where the App Store tells the game a player is under
+        13, the game applies the child ad settings described under <em>Your age range</em>.
       </p>
 
       <h2>Keeping and deleting your data</h2>
