@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 // Star Tap's home page, first published at the root of zablas.github.io.
 export const metadata: Metadata = {
   title: "Star Tap — Millwater Games",
-  description: "Star Tap is a one-thumb arcade game about timing, for Android and iPhone.",
+  description: "Star Tap is a one-thumb arcade game about timing.",
   alternates: { canonical: "/star-tap" },
 };
 
@@ -11,7 +11,7 @@ export default function StarTapHome() {
   return (
     <main>
       <h1>Star Tap</h1>
-      <p className="meta">A game for Android and iPhone by Millwater Games</p>
+      <p className="meta">A game by Millwater Games</p>
 
       <p className="lead">
         Orbs rise out of deep space and fade if you let them. Tap them in time, keep
@@ -51,10 +51,10 @@ export default function StarTapHome() {
 
       <h2>Money, plainly</h2>
       <p>
-        Star Tap is free and shows ads, and you can pay once to switch them off.
-        Journey attempts cost energy, which refills over time. Optional purchases
-        cover energy and Star Dust; Star Dust buys cosmetics only, and nothing you can
-        buy changes how the game plays.
+        Star Tap is free and shows ads, and you can pay once to switch off the banner
+        and between-run ads; the optional reward videos stay. Journey attempts cost
+        energy, which refills over time: you can buy energy, or Unlimited Energy, which
+        removes the limit. Star Dust, the other purchase, buys cosmetics only.
       </p>
 
       <h2>Privacy</h2>

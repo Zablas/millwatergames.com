@@ -131,6 +131,11 @@ export default function StarTapPrivacy() {
         <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, and Apple's by the{" "}
         <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.
       </p>
+      <p>
+        These are the only third parties the game shares data with. Each receives it only
+        for the purposes listed above, under its own privacy policy, which provides the same
+        or equal protection of your data as this policy.
+      </p>
 
       <h2>Advertising and your consent</h2>
       <p>
@@ -182,8 +187,8 @@ export default function StarTapPrivacy() {
 
       <h2>Children</h2>
       <p>
-        Star Tap is not directed at children. It is intended for players aged 13 and
-        over, and we do not knowingly collect information from children under 13. If you
+        Star Tap is a general-audience game. It is not directed at children under 13, and
+        we do not knowingly collect personal information from children under 13. If you
         believe a child has provided information through this app, please contact us and
         we will help you address it.
       </p>
