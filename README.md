@@ -42,7 +42,7 @@ Changing an address means changing it in every place below as well.
 
 | Address | Registered in |
 |---|---|
-| `millwatergames.com` | Google Search Console (Domain property, verified by DNS TXT in Cloudflare); Google Cloud → Google Auth Platform → Branding → Authorized domains (Thalassa's project, Climb Bros' project, Star Tap's if it has branding, and Priced Out's once it is there) |
+| `millwatergames.com` | Google Search Console (Domain property, verified by DNS TXT in Cloudflare); Google Cloud → Google Auth Platform → Branding → Authorized domains (Thalassa's project, Climb Bros' project, CapyGrove's Play Games project, Star Tap's if it has branding, and Priced Out's once it is there) |
 | `/thalassa` | Google Cloud → Branding → Application home page (Thalassa); Play Console → Thalassa → Store settings → Website (AdMob reads its host for app-ads.txt) |
 | `/thalassa/privacy` | Google Cloud → Branding → Application privacy policy link; Play Console → Thalassa → App content → Privacy policy; AdMob → Privacy & messaging → Thalassa's privacy policy URL; Epic Developer Portal → Thalassa → Brand settings; App Store Connect → Thalassa → App Information → Privacy Policy URL, once it is there |
 | `/thalassa/privacy#delete` | Play Console → Thalassa → App content → Data safety → Delete account URL |
@@ -54,7 +54,7 @@ Changing an address means changing it in every place below as well.
 | `/block-puzzle` | Play Console → Falling Block Match Puzzle → Store settings → Website (AdMob reads its host for app-ads.txt); Google Cloud → Branding → Application home page (its Play Games project); both once they are there |
 | `/block-puzzle/privacy` | Play Console → Falling Block Match Puzzle → App content → Privacy policy; AdMob → Privacy & messaging → its privacy policy URL; Google Cloud → Branding → Application privacy policy link (its Play Games project); all once they are there |
 | `/block-puzzle/privacy#delete` | Play Console → Falling Block Match Puzzle → App content → Data safety → Delete data URL |
-| `/capygrove/privacy` | CapyGrove's in-game Settings → Privacy policy (a change needs a new game build); Play Console → CapyGrove → App content → Privacy policy, AdMob → Privacy & messaging → its privacy policy URL, App Store Connect → CapyGrove → App Information → Privacy Policy URL, and Google Cloud → Branding → Application privacy policy link (its Play Games project); all once they are there |
+| `/capygrove/privacy` | CapyGrove's in-game Settings → Privacy policy (a change needs a new game build); Play Console → CapyGrove → App content → Privacy policy; AdMob → Privacy & messaging → the `CapyGrove GDPR` message (both apps); App Store Connect → CapyGrove → App Privacy → Privacy Policy URL (published with the next app version); Google Cloud → Branding → Application privacy policy link (its Play Games project) |
 | `/priced-out` | Play Console → Priced Out → Store settings → Website (AdMob reads its host for app-ads.txt); Google Cloud → Branding → Application home page (its Play Games project); both once they are there |
 | `/priced-out/privacy` | Priced Out's in-game Settings → Privacy → The full policy (a change needs a new game build); Play Console → Priced Out → App content → Privacy policy, AdMob → Privacy & messaging → its privacy policy URL, and Google Cloud → Branding → Application privacy policy link (its Play Games project); all once they are there |
 | `/priced-out/privacy#delete` | Play Console → Priced Out → App content → Data safety → Delete data URL, if it asks for one |
