@@ -44,8 +44,9 @@ export default function StarTapHome() {
       <div className="card">
         <p>
           Star Tap is free on{" "}
-          <a href="https://play.google.com/store/apps/details?id=com.millwatergames.startap">Google Play</a>.
-          The iPhone version is on its way to the App Store.
+          <a href="https://play.google.com/store/apps/details?id=com.millwatergames.startap">Google Play</a>{" "}
+          and on the{" "}
+          <a href="https://apps.apple.com/app/id6829492185">App Store</a>.
         </p>
       </div>
 
