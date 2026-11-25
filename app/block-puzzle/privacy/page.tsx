@@ -95,11 +95,17 @@ export default function BlockPuzzlePrivacy() {
             <td>To keep everyone on the current version: when a newer one is out, the game
               asks you to install it before you play on.</td>
           </tr>
+          <tr>
+            <td><strong>Google Play Age Signals</strong></td>
+            <td>Where a law requires it, your age range and whether it was declared or
+              verified, never your date of birth. The game does not keep it.</td>
+            <td>To choose age-appropriate ad settings (see <em>Your age range</em>).</td>
+          </tr>
         </tbody>
       </table>
 
       <p>
-        All four are operated by Google, and their handling of the data is governed by
+        All five are operated by Google, and their handling of the data is governed by
         the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. For
         advertising specifically, see{" "}
         <a href="https://support.google.com/admob/answer/6128543">how Google uses data from apps that use its services</a>.
@@ -182,23 +188,24 @@ export default function BlockPuzzlePrivacy() {
       <h2>Your age range</h2>
       <p>
         Where a law requires app stores to share an age range with apps, such as in Texas,
-        the game on iPhone asks the App Store for your age range through Apple&apos;s
-        Declared Age Range feature. Apple decides when this applies, and may ask you, or a
-        parent or guardian, whether to share it. The game receives only a range, such as
-        &quot;13 to 15&quot; or &quot;18 or over&quot;, and whether that range was declared
-        or verified, never your date of birth.
+        the game asks the store for your age range: on iPhone through Apple&apos;s Declared
+        Age Range feature, and on Android through Google Play&apos;s Age Signals feature. The
+        store decides when this applies, and Apple may ask you, or a parent or guardian,
+        whether to share it. The game receives only a range, such as &quot;13 to 15&quot; or
+        &quot;18 or over&quot;, and whether that range was declared or verified, never your
+        date of birth.
       </p>
       <p>
         The game uses the range to choose age-appropriate settings before any ad is
         requested. If you are under 13, or your age is not shared where the law applies,
-        ads are requested as directed to a child, with no personalised advertising. If you
-        are 13 to 17, ads are requested as for a user under the age of consent, which asks
+        ads are requested as directed to a child, with no personalised advertising and only
+        content suitable for all ages. If you are 13 to 17, ads are requested as for a user under the age of consent, which asks
         Google not to personalise them. Google&apos;s Mobile Ads SDK receives only these
         settings, not your age range.
       </p>
       <p>
         The game does not store your age range, does not send it to us or to anyone else,
-        and asks the App Store again each time it starts. Where no such law applies, the
+        and asks the store again each time it starts. Where no such law applies, the
         game does not ask, and it uses its usual settings.
       </p>
 
@@ -262,8 +269,8 @@ export default function BlockPuzzlePrivacy() {
         Falling Block Match Puzzle is a general-audience game. It is not directed at
         children under 13, and we do not knowingly collect personal information from
         children under 13. If you believe a child has provided information through this
-        app, please contact us and we will help you address it. Where the App Store tells
-        the game a player is under 13, the game applies the child settings described
+        app, please contact us and we will help you address it. Where the App Store or
+        Google Play tells the game a player is under 13, the game applies the child settings described
         under{" "}<em>Your age range</em>.
       </p>
 
