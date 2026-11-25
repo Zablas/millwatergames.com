@@ -15,7 +15,7 @@ export default function BlockPuzzlePrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Falling Block Match Puzzle</h1>
-      <p className="meta">Last updated: 22 November 2026</p>
+      <p className="meta">Last updated: 25 November 2026</p>
 
       <p className="lead">
         Falling Block Match Puzzle is a mobile game published by Millwater Games. This
@@ -155,7 +155,8 @@ export default function BlockPuzzlePrivacy() {
         the banner and the full-screen ads.
       </p>
       <p>
-        Ads in the game are limited to content suitable for teenagers.
+        Ads in the game are limited to content suitable for teenagers on Android, and to
+        content suitable for all ages on iPhone.
       </p>
       <p>
         If you are in the European Economic Area, the United Kingdom or Switzerland, the
@@ -176,6 +177,29 @@ export default function BlockPuzzlePrivacy() {
         On iPhone, <strong>REPORT AN AD</strong> in the game's Settings opens an email to us in
         your own mail app. It holds only what you write, and we use it only to look into the
         ad and reply.
+      </p>
+
+      <h2>Your age range</h2>
+      <p>
+        Where a law requires app stores to share an age range with apps, such as in Texas,
+        the game on iPhone asks the App Store for your age range through Apple&apos;s
+        Declared Age Range feature. Apple decides when this applies, and may ask you, or a
+        parent or guardian, whether to share it. The game receives only a range, such as
+        &quot;13 to 15&quot; or &quot;18 or over&quot;, and whether that range was declared
+        or verified, never your date of birth.
+      </p>
+      <p>
+        The game uses the range to choose age-appropriate settings before any ad is
+        requested. If you are under 13, or your age is not shared where the law applies,
+        ads are requested as directed to a child, with no personalised advertising. If you
+        are 13 to 17, ads are requested as for a user under the age of consent, which asks
+        Google not to personalise them. Google&apos;s Mobile Ads SDK receives only these
+        settings, not your age range.
+      </p>
+      <p>
+        The game does not store your age range, does not send it to us or to anyone else,
+        and asks the App Store again each time it starts. Where no such law applies, the
+        game does not ask, and it uses its usual settings.
       </p>
 
       <h2>Reminders</h2>
@@ -235,10 +259,12 @@ export default function BlockPuzzlePrivacy() {
 
       <h2>Children</h2>
       <p>
-        Falling Block Match Puzzle is not directed at children. It is intended for
-        players aged 13 and over, and we do not knowingly collect information from
+        Falling Block Match Puzzle is a general-audience game. It is not directed at
+        children under 13, and we do not knowingly collect personal information from
         children under 13. If you believe a child has provided information through this
-        app, please contact us and we will help you address it.
+        app, please contact us and we will help you address it. Where the App Store tells
+        the game a player is under 13, the game applies the child settings described
+        under{" "}<em>Your age range</em>.
       </p>
 
       <h2 id="delete">Deleting your data</h2>
