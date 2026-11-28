@@ -38,20 +38,22 @@ export default function ThalassaHome() {
         Play alone against rival powers led by the computer, after a first voyage that teaches you the
         game. Or <strong>sail together</strong> with two to four friends: everyone moves at once each
         round, the computer leads the other powers, and games are found by a five-letter code or in a
-        list of voyages open to all. Playing together uses Sign in with Google and Epic Online
-        Services.
+        list of voyages open to all. Playing together uses Epic Online Services, with Sign in with
+        Google on Android and an anonymous ID for your device on iPhone.
       </p>
 
       <h2>Platforms</h2>
       <p>
-        Thalassa is in development for Android phones and tablets.
+        Thalassa is in development for Android phones and tablets (Google Play) and for iPhone
+        (App Store).
       </p>
 
       <h2>Privacy</h2>
       <p>
-        The game sends Google measurements of how fast it loads and runs, with no account or advertising
-        identifier. It shows ads (Google AdMob) until you buy Remove ads, and with Google
-        Play Games your achievements and saved games follow your Google account. Read the{" "}
+        On Android the game sends Google measurements of how fast it loads and runs, with no account or
+        advertising identifier. It shows ads (Google AdMob) until you buy Remove ads. With Google Play
+        Games on Android your achievements and saved games follow your Google account; on iPhone, Game
+        Center keeps your achievements with your Apple Account. Read the{" "}
         <a href="/thalassa/privacy">privacy policy</a> to see what is shared, and when.
       </p>
 
