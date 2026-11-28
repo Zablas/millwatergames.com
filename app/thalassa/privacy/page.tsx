@@ -14,7 +14,7 @@ export default function ThalassaPrivacy() {
   return (
     <main>
       <h1>Privacy Policy — Thalassa</h1>
-      <p className="meta">Last updated: 26 November 2026</p>
+      <p className="meta">Last updated: 28 November 2026</p>
 
       <p className="lead">
         Thalassa is a mobile strategy game for Android and iPhone, published by Millwater Games. This
@@ -67,8 +67,9 @@ export default function ThalassaPrivacy() {
           <em>Sign in with Google</em>, a sign-in token that identifies your Google account and includes
           your name, email address and a link to your profile picture, and with Google Play Games,
           whether you are signed in, and this game's achievements and saved games; on iPhone, with
-          Game Center, whether you are signed in, and, where a law requires it, the App Store's answer
-          about your age range (see <em>Your age range</em>).</li>
+          Game Center, whether you are signed in; and, where a law requires it, Google Play&apos;s
+          answer (on Android) or the App Store&apos;s answer (on iPhone) about your age range (see{" "}
+          <em>Your age range</em>).</li>
         <li><strong>What is gathered automatically from your device:</strong>
           <ul>
             <li>by Google's Mobile Ads SDK (AdMob), until you buy Remove ads: your advertising ID (on
@@ -104,8 +105,8 @@ export default function ThalassaPrivacy() {
           achievements.</li>
         <li><strong>To show ads:</strong> AdMob uses its information to serve, measure and protect ads.
           Where the law asks for it, ads are personalised only with your consent.</li>
-        <li><strong>To choose age-appropriate ad settings:</strong> on iPhone, where a law requires it,
-          your age range decides how ads are requested, and is used for nothing else.</li>
+        <li><strong>To choose age-appropriate ad settings:</strong> on Android and iPhone, where a law
+          requires it, your age range decides how ads are requested, and is used for nothing else.</li>
         <li><strong>To honour Remove ads:</strong> the game hides the ads once Google Play or the App
           Store says you own it.</li>
         <li><strong>To keep the game up to date:</strong> everyone playing together needs the newest
@@ -143,8 +144,9 @@ export default function ThalassaPrivacy() {
             <td>What each of its services in the game needs: your sign-in (Sign in with Google), your
               achievements and saved games (Play Games), the advertising information above (AdMob, on
               iPhone too, with the age-appropriate settings chosen from your age range, never the range
-              itself), the purchase of Remove ads and the update check (Google Play), and the
-              performance measurements (Android Performance Tuner).</td>
+              itself), the purchase of Remove ads, the update check and, where a law requires it, the
+              request for your age range (Google Play, with Play Age Signals), and the performance
+              measurements (Android Performance Tuner).</td>
             <td>To provide those services.</td>
           </tr>
           <tr>
@@ -247,10 +249,10 @@ export default function ThalassaPrivacy() {
               your device.</td>
           </tr>
           <tr>
-            <td>Your age range (iPhone)</td>
+            <td>Your age range</td>
             <td>Not kept</td>
-            <td>The game uses it as it starts to choose its ad settings, never stores it, and asks the App
-              Store again each time it starts.</td>
+            <td>The game uses it as it starts to choose its ad settings, never stores it, and asks Google
+              Play or the App Store again each time it starts.</td>
           </tr>
           <tr>
             <td>Whether a newer version is available</td>
@@ -427,11 +429,13 @@ export default function ThalassaPrivacy() {
 
       <h2>Your age range</h2>
       <p>
-        Where a law requires app stores to share an age range with apps, such as in Texas, the game on
-        iPhone asks the App Store for your age range through Apple&apos;s Declared Age Range feature.
-        Apple decides when this applies, and may ask you, or a parent or guardian, whether to share it.
-        The game receives only a range, such as &quot;13 to 15&quot; or &quot;18 or over&quot;, and
-        whether that range was declared or confirmed, never your date of birth.
+        Where a law requires app stores to share an age range with apps, such as in Texas, the game asks
+        the store for your age range: on Android, Google Play through its Play Age Signals feature; on
+        iPhone, the App Store through Apple&apos;s Declared Age Range feature. The store decides when
+        this applies. Apple may ask you, or a parent or guardian, whether to share it; Google Play
+        shares it without asking where the law requires sharing. The game receives only a range, such
+        as &quot;13 to 15&quot; or &quot;18 or over&quot;, and how that range was declared or
+        confirmed, never your date of birth.
       </p>
       <p>
         The game uses the range to choose age-appropriate settings before any ad is requested. If you are
@@ -443,8 +447,10 @@ export default function ThalassaPrivacy() {
       </p>
       <p>
         The game does not store your age range, does not send it to us or to anyone else, and asks the
-        App Store again each time it starts. Where no such law applies, the game does not ask, and it uses
-        its usual settings. On Android the game does not ask for an age range.
+        store again each time it starts. Where no such law applies, the game does not ask, and it uses
+        its usual settings. On Android, if Google Play is present but cannot say whether the law applies
+        (for example, when the Play Store app is out of date or the game was not installed from Google
+        Play), the game uses the settings for a child.
       </p>
 
       <h2>Purchases</h2>
@@ -518,8 +524,8 @@ export default function ThalassaPrivacy() {
       <p>
         Thalassa is not directed at children. It is intended for players aged 13 and over, and we do
         not knowingly collect information from children under 13. If you believe a child has provided
-        information through the game, please contact us and we will help you address it. Where the App
-        Store tells the game a player is under 13, the game applies the child settings described
+        information through the game, please contact us and we will help you address it. Where Google
+        Play or the App Store tells the game a player is under 13, the game applies the child settings described
         under{" "}<em>Your age range</em>.
       </p>
 
